@@ -1,9 +1,10 @@
 # Site settings
-title: B.L.O.G
+title: L.A.B
 email: lgvichy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Bibble Lamprophony Over Gattoz
-# baseurl: "" # the subpath of your site, e.g. /blog/
+
+# baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 tagline: Site Tagline
 author :
@@ -11,6 +12,8 @@ author :
   email : blah@email.test
   github : louisgv
   twitter : LGVichy
+  facebook : billhainh
+  linkedin : louisgv
   # feedburner : feedname
 
 production_url : http://louisgv.github.io
@@ -82,6 +85,7 @@ JB :
   #
   archive_path:       /www/pages/archive.html
   categories_path :   /www/pages/categories.html
+  pages_path :        /www/pages/pages.html
   tags_path :         /www/pages/tags.html
   atom_path :         /feeds/atom.xml
   rss_path :          /feeds/rss.xml
