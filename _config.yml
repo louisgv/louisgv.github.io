@@ -2,11 +2,10 @@
 title: L.A.B
 email: lgvichy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Bibble Lamprophony Over Gattoz
-
+  Playground and all the fun stuffs happen in the mind of a lab: food, utopisms, code, and keywords.
 # baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-tagline: Site Tagline
+tagline: Bibble Lamprophony Over Gattoz
 author :
   name : Louis Vichy
   email : blah@email.test
@@ -17,7 +16,6 @@ author :
   # feedburner : feedname
 
 production_url : http://louisgv.github.io
-
 
 # Build settings
 markdown: rdiscount
@@ -87,8 +85,8 @@ JB :
   categories_path :   /www/pages/categories.html
   pages_path :        /www/pages/pages.html
   tags_path :         /www/pages/tags.html
-  atom_path :         /feeds/atom.xml
-  rss_path :          /feeds/rss.xml
+  atom_path :         /www/feeds/atom.xml
+  rss_path :          /www/feeds/rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
@@ -119,7 +117,7 @@ JB :
     gauges :
         site_id : 'SITE ID'
     google :
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-63900039-1'
     getclicky :
       site_id :
     mixpanel :
