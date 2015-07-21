@@ -41,6 +41,8 @@ gems:
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+img_path : /www/img
+
 JB :
   version : 0.3.0
 
@@ -95,7 +97,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : lab
     livefyre :
       site_id : 123
     intensedebate :

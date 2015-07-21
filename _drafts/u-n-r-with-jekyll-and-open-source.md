@@ -3,6 +3,7 @@ layout: post
 title: Up and Running with Jekyll, and Open Source
 tagline: v0.0.9
 description: Journey log on how this baby was constructed with "custom" theme, and the damn thing is responsive too!
+photo_url: "http://farm8.staticflickr.com/7451/9254559408_c34e7b9304_c.jpg"
 date: '2015-07-19 22:57'
 tags:
   - Jekyll
