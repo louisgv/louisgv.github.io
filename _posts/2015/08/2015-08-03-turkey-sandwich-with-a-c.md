@@ -2,7 +2,7 @@
 layout: post
 title: Turkey Sandwich with AC
 tagline: by Lydia
-date: '2015-07-21 14:41'
+date: '2015-08-03 23:45'
 tags:
   - taste-test
   - friends
@@ -49,3 +49,5 @@ So Bogdan was a friend, and last Monday I crashed at his place and we hacked all
 - Although there was not much garlic flavor, the after taste does somehow arouse it... pretty strange.
 
 # Overall, great job!
+
+- I forgot to take pictures...
