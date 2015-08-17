@@ -2,15 +2,13 @@
 layout: post
 title: 'Mixed Fried Chicken at Safeway '
 tagline: v0.0.9
-date: '2015-07-20 15:32'
+date: '2015-08-10 02:08'
 tags:
   - taste-test
   - fjf
 categories:
   - food n drink
 ---
-
-//TODO: Research the Ingredient
 
 # Ingredient
 
