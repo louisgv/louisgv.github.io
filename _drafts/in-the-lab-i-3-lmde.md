@@ -42,9 +42,9 @@ I have tasted all kind of desktop distro e.g Ubuntu, Arch Linux, Fedora, Debian,
 
 ```
 
-As one could see, I've found the perfect back-end to be Debian and the perfect front-end to be Linuxmint with Cinnamon. LMDE just happen to combine these two, and `BAM` here comes a tea with:
+I've found the perfect back-end to be Debian and the perfect front-end to be Linuxmint with Cinnamon. LMDE just happen to combine these two, and `BAM` here comes a tea with:
 
-+ Body: Strong and Thick
++ Body: Strong and thick
 + Smell: Fresh minty smell with a kick of spice
 + Flavor: Lightly spicy. The fresh mint just climb up your nose from your throat
 + After-taste: Fresh and cleanse, resulted from the cinnamon
