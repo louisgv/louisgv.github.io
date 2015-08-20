@@ -1,14 +1,22 @@
 ---
 layout: post
-title: Turkey Sandwich with A-C
+title: Turkey Sandwich with AC
 tagline: by Lydia
-date: '2015-07-21 14:41'
+date: '2015-08-03 23:45'
 tags:
   - taste-test
   - friends
 categories:
   - food n drink
 ---
+
+So Bogdan was a friend, and last Monday I crashed at his place and we hacked all night. On Tuesday, his sister made us some sandwich.
+
+# Ingredient
+
+- Pesto Herb:
+- White bread:
+- Cheese:
 
 # Aroma
 
@@ -40,4 +48,6 @@ categories:
 - The herb stuck, result of butter and some garlic?
 - Although there was not much garlic flavor, the after taste does somehow arouse it... pretty strange.
 
-Overall, pretty edible!
+# Overall, great job!
+
+- I forgot to take pictures...

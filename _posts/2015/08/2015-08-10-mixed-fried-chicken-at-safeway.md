@@ -2,41 +2,39 @@
 layout: post
 title: 'Mixed Fried Chicken at Safeway '
 tagline: v0.0.9
-date: '2015-07-20 15:32'
+date: '2015-08-10 02:08'
 tags:
   - taste-test
-  - fried
+  - fjf
 categories:
   - food n drink
 ---
 
 # Ingredient
 
-  + Chicken containing up to 11% of a solution of water, vinegar, sslat, breading Ingredient
-  + bleached wheat flour, salt, canola or soybean oil
+  + Chicken containing up to 11% of a solution of water, vinegar, salt, breading Ingredient
+  + Bleached wheat flour, salt, canola or soybean oil
   + onion powder
-  + garlid powerder
+  + Garlic powder
   + spices
   + potato flour
   + Oscorbic Acid
   + Oleo Resin Paprika
   + Natural Flavor
   + Canola oil
-  + TBHQ
-  + Citric Acid
-  + Dimethylpolysiloxane
+  + TBHQ : Wut?
+  + Citric Acid :
+  + Dimethylpolysiloxane : Wut?
 
 Total Price: $7
 
-# Taste
-
-### Aroma
+# Aroma
 
   + Fried potato smell, with spices, smells the paprika
   + Salty smell
   + Burnt
 
-### Body
+# Body, Flavor, and After Taste
 
 #### Drum Stick
 
