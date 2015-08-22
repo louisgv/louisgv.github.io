@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Turkey Sandwich with AC
-tagline: by Lydia
+title: 'Turkey Sandwich with AC'
+tagline: 'by Lydia'
 date: '2015-08-22 09:42'
 tags:
   - taste-test

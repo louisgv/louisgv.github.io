@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Mixed Fried Chicken at Safeway '
-tagline: v0.0.9
+tagline: 'v0.0.9'
 date: '2015-08-10 02:08'
 tags:
   - taste-test

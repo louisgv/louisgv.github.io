@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CorD?
+title: 'CorD?'
 date: '2015-08-22 09:37'
 ---
 

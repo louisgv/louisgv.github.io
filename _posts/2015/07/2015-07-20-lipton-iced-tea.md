@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Iced Tea
-tagline: by bpshonyak, v0.0.9
+title: 'Iced Tea'
+tagline: 'by bpshonyak, v0.0.9'
 photo_url: /www/img/2015/07/20-tea-bogdan.jpg
 date: '2015-07-20 19:03'
 tags:

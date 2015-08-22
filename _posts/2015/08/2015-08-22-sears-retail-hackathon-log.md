@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sears Retail Hackathon Log
-tagline: revolutiono...
+title: 'Sears Retail Hackathon Log'
+tagline: 'revolutiono...'
 date: '2015-08-22 10:59'
 tags:
   - hack-a-thon

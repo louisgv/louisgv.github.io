@@ -2,7 +2,7 @@
 layout: post
 title: 'Whole Avo, Sal, and Sun Seed'
 tagline: v0.0.9
-date: '2015-07-20 14:46'
+date: '2015-08-22 11:04'
 tags:
   - bizzarecipe
   - taste
@@ -26,27 +26,27 @@ categories:
 
 # Taste
 
-### Aroma
+#### Aroma
 
-+ No fish smell,
++ No fish smell
 
-### Body
+#### Body
 
 + Mushy
 + Nutty
 
-### Flavor
+#### Flavor
 
 + Salt kick in on the right fish part.
 + Very bitter and hard to eat on the avocado pit, thus slow the eating down.
 + Very good pace of chewing and eating
 + The nutty flavor of the pit added into the thing overall.
 
-### Acidic
+#### Acidic
 
 + Very bland, no sourness at all
 
-### After-taste
+#### After-taste
 
 + Slight bitter at the tips of the tounge
 + Grassy smell
