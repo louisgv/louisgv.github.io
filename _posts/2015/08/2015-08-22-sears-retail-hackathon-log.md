@@ -39,6 +39,7 @@ categories:
 
 #### 2PM
 + [Cordova Camera Plugin](https://github.com/apache/cordova-plugin-camera)
+
 ```  
   |---> Need to implement streaming service.
     \---> Doc was scarce
@@ -47,6 +48,7 @@ categories:
 
 #### 4PM
 + [ngCordova Camera Plugin](http://ngcordova.com/docs/plugins/camera/)
+
 ```  
   |---> Easy to plug into Ionic
     \---> Still need to implement streaming service
@@ -55,6 +57,7 @@ categories:
 
 #### 6PM
 + [Camera Server plugin from Moonshot](https://github.com/Moonware/cordova-cameraserver)
+
 ```  
   |---> Worked
     \---> Slow
@@ -68,6 +71,7 @@ categories:
 #### 9PM
 + Decision: full force with webRTC
 + [SimpleRTC][2c2eac65]
+
 ```
   |---> Easy Doc
     \---> Success with browser-to-browser

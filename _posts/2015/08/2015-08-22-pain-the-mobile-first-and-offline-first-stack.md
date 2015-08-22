@@ -14,25 +14,25 @@ Luckily, the open-source world had opened a big door for the developer/entrepreu
 
 Introducing, the PAIN stack!
 
-## PouchDB?
+# PouchDB?
 
 [PouchDB](http://pouchdb.com/) allows for easy implementation of client-side database. Website, apps and hybrid apps that rely on data can now be made functional offline while also be synced with remote database as the device came back online.
 
 PouchDB can handle conflict as it is based off CouchDB, the very database famous for its replication ability.
 
-## Angular!
+# Angular!
 
 From [single g](google.com) comes the MVC framework with its powerful bi-directional data binding. The best thing about angular is that the code base are very organized.
 
 By the way, started thinking the angular way does not mean one won't be able to think the other way. Switching between frameworks should be doable if one understood why 1 is not equal to 0 but `true`.
 
-## Ionic?
+# Ionic?
 
 A framework built on top of Cordova. [Ionic](http://ionicframework.net/) makes developing hybrid application simple. There are many templates to start from, and the standard way of styling things makes front-end decision straight-forward. Ionic is compatible with the majority of Cordova's plugin.
 
 Ionic also get a boost of plugin with ngCordova, a project aimed toward making Cordova plugin easier to use within Angular.
 
-## Node!
+# Node!
 
 The central hub that makes up the rest of the story. [Node](nodejs.org) carries the back-end that could serves and monitor data, or serve a RESTful service, or just about anything else.
 
