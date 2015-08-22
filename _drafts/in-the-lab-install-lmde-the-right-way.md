@@ -10,11 +10,12 @@ categories:
   - linux
 ---
 
-After my love letter to LMDE, here comes a tutorial which tell the world my way to install LMDE, which in my opinion, the way we've done it in the lab.
+Here comes a tutorial which tell the world of installing LMDE the way we've done it in the lab.
 
 # Preparation
 
-+ A laptop, desktop, pc or a vm. If you wanna try this with vm, have your virtual box up and make a simple linux vdi with 1 to 2GB of RAM and 10GB of memory.
++ A 2 years old PC. Wise guy should try the If you wanna try this with vm, have your virtual box up and make a simple linux vdi with 1 to 2GB of RAM and 10GB of memory.
+
 + LMDE iso which can be found [here](LMDE link). If using VM google for a tutorial on how to use the iso directly. If you do it with a real machine, your best bet is to make a bootable USB. For a bootable USB to install, on Windows use Universal Boot something. On Linux, dd.
 
 # Partition
@@ -36,12 +37,13 @@ After my love letter to LMDE, here comes a tutorial which tell the world my way 
   '/usr/sbin' : Most program that only sudo user can use resides here
   '/usr/bin' : Programs that regular user can use is here
   '/etc' : system-wise setting for devices, programs, and so on resides here.
-
+  '/opt' : all optional stuffs reside here.. although I doubt anyone'd use it...
 ```
 
 + For performance in the web era, make your home directory double or at least equal to the size of your root partition. Installing outside library in your '/' only when it's related to the system, and you would be safe and sound. The best thing about this setup, is that all your work-related software are safe and sound even if the main system suddenly die because you tried to install glib and it outright kill your system right infront of your eye.
 
 + Installing rEFInd
++ Copy rEFInd to /boot
 
 # Customization
 

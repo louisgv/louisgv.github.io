@@ -2,7 +2,7 @@
 layout: post
 title: Turkey Sandwich with AC
 tagline: by Lydia
-date: '2015-08-03 23:45'
+date: '2015-08-22 09:42'
 tags:
   - taste-test
   - friends
@@ -14,9 +14,9 @@ So Bogdan was a friend, and last Monday I crashed at his place and we hacked all
 
 # Ingredient
 
-- Pesto Herb:
-- White bread:
-- Cheese:
+- Pesto Herb: 4 cal/mL
+- Garlic bread: 160 cal/slice
+- Cheese: 4 cal/cube
 
 # Aroma
 
