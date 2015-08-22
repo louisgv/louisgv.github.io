@@ -2,6 +2,7 @@
 layout: post
 title: 'Sears Retail Hackathon Log'
 tagline: 'revolutiono...'
+photo_url: /www/img/2015/08/sears-blue.png
 date: '2015-08-22 10:59'
 tags:
   - hack-a-thon

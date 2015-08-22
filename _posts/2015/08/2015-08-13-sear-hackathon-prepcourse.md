@@ -2,7 +2,7 @@
 layout: post
 title: SEAR hackathon prepcourse
 tagline: v0.0.9
-date: '2015-08-10 02:10'
+date: '2015-08-13 12:54'
 tags:
   - hack
   - angular
