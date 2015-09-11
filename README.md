@@ -1,2 +1,3 @@
-# louisgv.github.io
-L's blog
+# A simple portfolio
+
+Made with the pain stack
