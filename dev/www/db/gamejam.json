@@ -38,6 +38,18 @@
     ],
     "link": ""
   }, {
+    "name": "Pewdiepie Jam",
+    "date": "Nov 2014",
+    "team": "Fart Plan",
+    "proj": "Fartman",
+    "desc": "A simple 2D platformer",
+    "role": "Programmer",
+    "work": "Code and design the game",
+    "memb": [
+      "Nick Alston"
+    ],
+    "link": "http://gamejolt.com/games/platformer/fartman/39633/"
+  }, {
     "name": "HogJam #5",
     "date": "Aug 2014",
     "team": "Flame Wheel",
