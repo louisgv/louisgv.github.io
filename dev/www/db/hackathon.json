@@ -10,6 +10,19 @@
     "memb": [],
     "link": ""
   },{
+    "name": "AT&T Mobile Hackathon",
+    "date": "Sep 2015",
+    "team": "jabSquared",
+    "proj": "cita",
+    "desc": "An on-the-bike appointment scheduler, specialized for a local barbershop.",
+    "role": "Pitcher",
+    "work": "Developed user story and deliver the pitch. Made audiences laugh.",
+    "memb": [
+      "Bryan",
+      "Bogdan"
+    ],
+    "link": ""
+  },{
     "name": "BitTitan's Code and Cocktail",
     "date": "August 2015",
     "team": "jabSquared",
@@ -38,7 +51,7 @@
     ],
     "link": ""
   },{
-    "name": "name.com hackathon",
+    "name": "Hack the Dot by name.com",
     "date": "July 2015",
     "team": "zebraFish",
     "proj": "sandwish",
