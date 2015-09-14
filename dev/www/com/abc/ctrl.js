@@ -1,4 +1,4 @@
-angular.module('louisgv.controllers', [])
+angular.module('louisgv.ctrl', [])
   .controller('HomeCtrl', function($scope, $ionicModal, $timeout) {
     console.log('HomeCtrl');
 
