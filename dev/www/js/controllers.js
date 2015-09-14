@@ -1,5 +1,6 @@
-angular.module('starter.controllers', [])
+angular.module('louisgv.pl', [])
   .controller('PlaylistsCtrl', function($scope) {
+    console.log('PlaylistsCtrl');
     $scope.playlists = [{
       title: 'Reggae',
       id: 1,
