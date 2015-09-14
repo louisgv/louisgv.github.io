@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Louis</title>
+
+
+    <!-- compiled css output -->
+    <link href="www/css/ionic.app.css" rel="stylesheet">
+    <!-- <link href="css/ionic.app.min.css" rel="stylesheet"> -->
+
+    <!-- ionic/angularjs js -->
+    <script src="www/lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- app.js -->
+    <script src="www/js/app.js"></script>
+
+    <!-- ctrl.js -->
+    <script src="www/com/abc/ctrl.js"></script>
+    <script src="www/com/hat/ctrl.js"></script>
+    <script src="www/com/jam/ctrl.js"></script>
+
+    <!-- dir.js -->
+    <script src="www/mod/imgold/dir.js"></script>
+
+    <!-- tracker -->
+    <script>
+      (function(l, o, u, i, s, g, v) {
+        l['GoogleAnalyticsObject'] = s;
+        l[s] = l[s] || function() {
+          (l[s].q = l[s].q || []).push(arguments)
+        }, l[s].l = 1 * new Date();
+        g = o.createElement(u),
+          v = o.getElementsByTagName(u)[0];
+        g.async = 1;
+        g.src = i;
+        v.parentNode.insertBefore(g, v)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-63900039-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </head>
+
+  <body ng-app="louisgv">
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>
