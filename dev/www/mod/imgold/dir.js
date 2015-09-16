@@ -1,34 +1,35 @@
-app.directive('imageonload', function() {
+angular.module('louisgv')
+  .directive('imgold', function() {
 
-  'use strict';
+    'use strict';
 
-  return {
-    restrict: 'A',
+    return {
+      restrict: 'A',
 
-    link: function(scope, element, attrs) {
+      link: function(scope, element, attrs) {
 
-      var cssClass = attrs.loadedclass;
-      var origSrc;
-      var timeout;
+        var cssClass = attrs.loadedclass;
+        var origSrc;
+        var timeout;
 
-      function reload() {
-        timeout = setTimeout(function() {
-          if (!origSrc) {
-            origSrc = element[0].src;
-          }
+        function reload() {
+          timeout = setTimeout(function() {
+            if (!origSrc) {
+              origSrc = element[0].src;
+            }
 
-          element[0].src = origSrc + '?' + Date.now();
-          reload();
-        }, 4500);
-      }
+            element[0].src = origSrc + '?' + Date.now();
+            reload();
+          }, 4500);
+        }
 
-      reload();
+        reload();
 
-      element.bind('load', function(e) {
-        clearTimeout(timeout);
-        element.addClass(cssClass);
-        scope.$apply(attrs.imageonload);
-      });
-    },
-  };
-});
+        element.bind('load', function(e) {
+          clearTimeout(timeout);
+          element.addClass(cssClass);
+          scope.$apply(attrs.imageonload);
+        });
+      },
+    };
+  });
