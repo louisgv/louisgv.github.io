@@ -30,7 +30,7 @@ angular
     console.log('config');
 
     // if none of the states below are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/menu/home');
+    $urlRouterProvider.otherwise('/');
 
     $stateProvider
       .state('home', { // TODO: Make into Home Page
