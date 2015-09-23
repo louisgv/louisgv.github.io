@@ -33,7 +33,7 @@ angular
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
-      .state('home', { // TODO: Make into Home Page
+      .state ('home', { // TODO: Make into Home Page
         url: '/',
         views: {
           menuContent: {
