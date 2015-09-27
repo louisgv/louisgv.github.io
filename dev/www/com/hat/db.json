@@ -10,6 +10,18 @@
     "memb": [],
     "link": ""
   },{
+    "name": "Hack for Kenmore 2015",
+    "date": "Sep 2015",
+    "team": "jabSquared",
+    "proj": "Do you want to help Kenmore?",
+    "desc": "A platform that allow the city to outsource community project easier so that citizens can form group and contribute. Project are assgined randomly.",
+    "role": "Designer, Developer, Pitcher",
+    "work": "Developed an mvp in ionic that assign task to user, with dashboard, mockup chat, and session management.",
+    "memb": [
+      "LAB"
+    ],
+    "link": ""
+  },{
     "name": "AT&T Mobile Hackathon",
     "date": "Sep 2015",
     "team": "jabSquared",
