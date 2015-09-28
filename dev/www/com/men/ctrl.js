@@ -1,6 +1,6 @@
 angular.module('louisgv.ctrl')
   .controller('MenuCtrl', function($scope, $ionicModal, $timeout) {
-    console.log('MenuCtrl');
+    console.log('CTRL: Menu');
 
     // With the new view caching in Ionic, Controllers are only called
     // when they are recreated or on app start, instead of every page change.

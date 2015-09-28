@@ -30,23 +30,21 @@ angular
     console.log('config');
 
     // if none of the states below are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('/home');
 
     $stateProvider
-      .state ('home', { // TODO: Make into Home Page
-        url: '/',
-        views: {
-          menuContent: {
-            templateUrl: 'com/abc/tmpl.html',
-            controller: 'HomeCtrl',
-          },
-        },
-      })
-      .state('men', { //TODO: Change to MenuCtrl
-        url: '/men',
+      .state('louisgv', { //TODO: Change to MenuCtrl
+        url: '',
         abstract: true,
         templateUrl: 'com/men/tmpl.html',
         controller: 'MenuCtrl',
+      })
+      .state('louisgv.home', { // TODO: Make into Home Page
+        url: '/home',
+        menuContent: {
+          templateUrl: 'com/abc/tmpl.html',
+          controller: 'HomeCtrl',
+        }
       })
       .state('jam', {
         url: '/jam',
