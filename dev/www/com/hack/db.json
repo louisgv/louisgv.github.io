@@ -10,6 +10,22 @@
     "memb": [],
     "link": ""
   },{
+    "name": "Meteor Global Hackathon",
+    "date": "October 2015",
+    "team": "jabSquared",
+    "proj": "highOnLife",
+    "desc": "A game focused on drug effect",
+    "role": "Programmer",
+    "work": "Implement basic controller and background effect",
+    "memb": [
+      "Kris",
+      "Akshay",
+      "Bryan",
+      "Bogdan",
+      "Yonas"
+    ],
+    "link": "highonlife.meteor.com"
+  },{
     "name": "Hack for Kenmore 2015",
     "date": "Sep 2015",
     "team": "jabSquared",
