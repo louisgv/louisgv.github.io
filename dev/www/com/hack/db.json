@@ -10,15 +10,19 @@
     "memb": [],
     "link": ""
   },{
-    "name": "",
-    "date": "",
-    "team": "",
-    "proj": "",
-    "desc": "",
-    "role": "",
-    "work": "",
-    "memb": [],
-    "link": ""
+    "name": "DubHack 2015",
+    "date": "October 2015",
+    "team": "jabSquared",
+    "proj": "Zydeco",
+    "desc": "Deep insight on Concept using IBM Watson's Concept Insight API",
+    "role": "Developer, Designer",
+    "work": "Back-end, Front-end",
+    "memb": [
+      "Bryan",
+      "Bogdan",
+      "Yonas"
+    ],
+    "link": "https://jabsquared.github.io/ideabox"
   },{
     "name": "Meteor Global Hackathon",
     "date": "October 2015",
