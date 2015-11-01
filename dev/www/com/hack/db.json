@@ -10,6 +10,21 @@
     "memb": [],
     "link": ""
   },{
+    "name": "Hack The Dot #3",
+    "date": "Octorber 2015",
+    "team": "taco.tech",
+    "proj": "Tech in Taco",
+    "desc": "Tech wrapped in Taco, delivered to your door.",
+    "role": "Tech Lead",
+    "work": "Guides teammates with merge task and so on",
+    "memb": [
+      "Yonas",
+      "Shep",
+      "Ara",
+      "Chris"
+    ],
+    "link": ""
+  }, {
     "name": "Kandy.io Hack",
     "date": "October 2015",
     "team": "Dr.Kandy",
@@ -18,11 +33,11 @@
     "role": "Developer",
     "work": "Intergrate Kandy.io API. Created patient interface both ends, and doctor interface's front end",
     "memb": [
-"Andy",
-"Alan"
-],
+      "Andy",
+      "Alan"
+    ],
     "link": ""
-  },{
+  }, {
     "name": "DubHack 2015",
     "date": "October 2015",
     "team": "jabSquared",
@@ -36,7 +51,7 @@
       "Yonas"
     ],
     "link": "https://jabsquared.github.io/ideabox"
-  },{
+  }, {
     "name": "Meteor Global Hackathon",
     "date": "October 2015",
     "team": "jabSquared",
@@ -52,7 +67,7 @@
       "Yonas"
     ],
     "link": "highonlife.meteor.com"
-  },{
+  }, {
     "name": "Hack for Kenmore 2015",
     "date": "Sep 2015",
     "team": "jabSquared",
@@ -66,7 +81,7 @@
       "billhainh"
     ],
     "link": ""
-  },{
+  }, {
     "name": "AT&T Mobile Hackathon",
     "date": "Sep 2015",
     "team": "jabSquared",
@@ -79,7 +94,7 @@
       "Bogdan"
     ],
     "link": ""
-  },{
+  }, {
     "name": "BitTitan's Code and Cocktail",
     "date": "August 2015",
     "team": "jabSquared",
@@ -94,7 +109,7 @@
       "Yonas"
     ],
     "link": ""
-  },{
+  }, {
     "name": "Facebook Meat and Greet",
     "date": "August 2015",
     "team": "ba",
@@ -107,7 +122,7 @@
       "Bogdan"
     ],
     "link": ""
-  },{
+  }, {
     "name": "Hack the Dot by name.com",
     "date": "July 2015",
     "team": "zebraFish",
@@ -124,7 +139,7 @@
       "Selmoja"
     ],
     "link": ""
-  },{
+  }, {
     "name": "Sears Hackathon",
     "date": "July 2015",
     "team": "jabSquared",
@@ -139,7 +154,7 @@
       "Bogdan"
     ],
     "link": ""
-  },{
+  }, {
     "name": "AngelHack 2015",
     "date": "June 2015",
     "team": "jabSquared",
@@ -154,7 +169,7 @@
       "Bogdan"
     ],
     "link": ""
-  },{
+  }, {
     "name": "Microsoft's Big Data Hackathon",
     "date": "June 2015",
     "team": "LAB",
@@ -168,7 +183,7 @@
       "billhainh"
     ],
     "link": ""
-  },{
+  }, {
     "name": "Codeday Auburn",
     "date": "May 2015",
     "team": "travelTag",
@@ -183,7 +198,7 @@
       "Qui (?)"
     ],
     "link": ""
-  },{
+  }, {
     "name": "AT&T Mobile Hackathon",
     "date": "April 2015",
     "team": "hacktivate",
@@ -199,7 +214,7 @@
       "Yii(?),"
     ],
     "link": ""
-  },{
+  }, {
     "name": "Protohack",
     "date": "March 2015",
     "team": "copyTrade",
@@ -212,7 +227,7 @@
       "Dilip Puluru"
     ],
     "link": ""
-  },{
+  }, {
     "name": "AT&T Mobile Hackathon",
     "date": "February 2015",
     "team": "Bye Bike Thief",
@@ -225,7 +240,7 @@
       "Seaton Gras"
     ],
     "link": ""
-  },{
+  }, {
     "name": "AT&T Mobile Hackathon",
     "date": "February 2015",
     "team": "Bye Bike Thief",
@@ -238,7 +253,7 @@
       "Seaton Gras"
     ],
     "link": ""
-  },{
+  }, {
     "name": "Youbetme Hackathon",
     "date": "August 2014",
     "team": "Punctuality",
@@ -253,7 +268,7 @@
       "Kevin Xue"
     ],
     "link": ""
-  },{
+  }, {
     "name": "AngelHack 2014",
     "date": "May 2014",
     "team": "Nibble",
@@ -268,7 +283,7 @@
       "Robert Greene the UX Wizard"
     ],
     "link": ""
-  },{
+  }, {
     "name": "Seattle Code for Change",
     "date": "Feb 2014",
     "team": "Bus buddy",
