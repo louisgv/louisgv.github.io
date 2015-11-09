@@ -10,6 +10,33 @@
     "memb": [],
     "link": ""
   },{
+    "name": "CodeDay Seattle #2",
+    "date": "November 2015",
+    "team": "Poptart",
+    "proj": "Pop+AR+",
+    "desc": "Extending HauntinAR durinng Facebook hack made the day before.",
+    "role": "Developer, Mentor",
+    "work": "Just getting a lil bit more used to the library. Mainly go around helping other teams during this hack.",
+    "memb": [
+      "LAB"
+    ],
+    "link": ""
+  },{
+    "name": "Diversity Hackathon Facebook",
+    "date": "November 2015",
+    "team": "AdviseMe && HauntinAR",
+    "proj": "AdviseMe && HauntinAR",
+    "desc": "Advising platform that advise user based on their geolocation.",
+    "role": "Tech Lead, Developer",
+    "work": "Guides the main programmer with developing the application",
+    "memb": [
+      "Kawan",
+      "Melinda",
+      "Hsuan-Ting",
+      "Hella"
+    ],
+    "link": ""
+  },{
     "name": "Hack The Dot #3",
     "date": "Octorber 2015",
     "team": "taco.tech",
