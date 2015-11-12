@@ -1,39 +1,53 @@
 <!DOCTYPE html>
-<ion-view view-title="LAB" hide-nav-bar="true" class="home">
+<ion-view view-title="LAB" class="home">
 
-  <ion-content class="xcentre">
+  <ion-content>
 
-    <div class="icon-container tcenter">
-      <img ng-src="img/ionic.png" />
-      <h2>
-        I am Louis
-      </h2>
-      <h4>
-        astroBoy @ jabSquared
-      </h4>
-    </div>
-
-    <div class="tcenter">
-      <h3>
-        I <i class="icon ion-heart"></i> hackathon
-      </h3>
-
-      <div class="card">
-        <div class="item item-text-wrap item-positive">
-          This is a Card
-        </div>
+    <div class="row">
+      <div class="col">
+        Hackathon
       </div>
-
-      <h3>
-        I <i class="icon ion-thumb-up"></i> hackathon
-      </h3>
-
-      <div class="card">
-        <div class="item item-text-wrap item-positive">
-          This is a Card
-        </div>
+      <div class="col">
+        Gamejam
       </div>
     </div>
+
+    <div class="row">
+      <div class="col">
+
+        <ion-slide-box on-slide-changed="slideHasChanged(index)">
+
+          <ion-slide>
+            <div class="box blue">
+              <h1>BLUE</h1>
+            </div>
+          </ion-slide>
+          <ion-slide>
+            <div class="box yellow">
+              <h1>YELLOW</h1>
+            </div>
+          </ion-slide>
+          <ion-slide>
+            <div class="box pink">
+              <h1>PINK</h1>
+            </div>
+          </ion-slide>
+
+        </ion-slide-box>
+      </div>
+
+      <div class="col">
+
+        <div class="card">
+          <div class="item item-text-wrap item-positive">
+            This is a Card
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
   </ion-content>
 </ion-view>
