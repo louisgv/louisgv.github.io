@@ -1,17 +1,33 @@
 <!DOCTYPE html>
-<ion-view view-title="GameJam" hide-nav-bar="true" class="home">
+<ion-view view-title="GameJam" hide-nav-bar="true" class="gjam">
+  <ion-content>
 
-  <ion-content class="xcentre">
+    <ion-slide-box on-slide-changed="slideHasChanged(index)">
+      <ion-slide ng-repeat="jam in jamDB.jams">
+        <div class="cardWrapper">
+          <div class="card">
 
-    <div class="icon-container tcenter">
-      <img ng-src="img/ionic.png" />
-      <h2>
-        I am Louis
-      </h2>
-      <h4>
-        astroBoy @ jabSquared
-      </h4>
-    </div>
+            <div class="item item-text-wrap">
+              {{jam.name}}
+            </div>
+            <div class="item item-text-wrap">
+              {{jam.desc}}
+            </div>
+            <div class="item item-text-wrap">
+              {{jam.date}}
+            </div>
+            <div class="item item-text-wrap">
+              {{jam.work}}
+            </div>
+            <div class="item item-text-wrap">
+              {{jam.memb}}
+            </div>
+
+          </div>
+        </div>
+
+      </ion-slide>
+    </ion-slide-box>
 
   </ion-content>
 </ion-view>

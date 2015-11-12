@@ -9297,28 +9297,13 @@ a.button {
   transition-duration: 0s; }
 
 .left-menu ion-content {
-  background: -webkit-linear-gradient(90deg, #9bc5c3 10%, #616161 90%);
-  /* Chrome 10+, Saf5.1+ */
-  background: -moz-linear-gradient(90deg, #9bc5c3 10%, #616161 90%);
-  /* FF3.6+ */
-  background: -ms-linear-gradient(90deg, #9bc5c3 10%, #616161 90%);
-  /* IE10 */
-  background: -o-linear-gradient(90deg, #9bc5c3 10%, #616161 90%);
-  /* Opera 11.10+ */
-  background: linear-gradient(90deg, #9bc5c3 10%, #616161 90%);
-  /* W3C */ }
+  background: tan; }
+
+.gjam ion-content {
+  background: gray; }
 
 .home ion-content {
-  background: -webkit-linear-gradient(90deg, #616161 10%, #9bc5c3 90%);
-  /* Chrome 10+, Saf5.1+ */
-  background: -moz-linear-gradient(90deg, #616161 10%, #9bc5c3 90%);
-  /* FF3.6+ */
-  background: -ms-linear-gradient(90deg, #616161 10%, #9bc5c3 90%);
-  /* IE10 */
-  background: -o-linear-gradient(90deg, #616161 10%, #9bc5c3 90%);
-  /* Opera 11.10+ */
-  background: linear-gradient(90deg, #616161 10%, #9bc5c3 90%);
-  /* W3C */ }
+  background: lightgreen; }
 
 a {
   text-decoration: none; }

@@ -1,4 +1,5 @@
-angular.module('louisgv.ctrl', [])
+angular
+  .module('louisgv.ctrl', [])
   .controller('HomeCtrl', function($scope, $ionicModal, $timeout) {
     console.log('HomeCtrl');
 
@@ -8,23 +9,5 @@ angular.module('louisgv.ctrl', [])
     // listen for the $ionicView.enter event:
     //$scope.$on('$ionicView.enter', function(e) {
     //});
-    $scope.playlists = [{
-      title: 'Reggae',
-      id: 1,
-    }, {
-      title: 'Chill',
-      id: 2,
-    }, {
-      title: 'Dubstep',
-      id: 3,
-    }, {
-      title: 'Indie',
-      id: 4,
-    }, {
-      title: 'Rap',
-      id: 5,
-    }, {
-      title: 'Cowbell',
-      id: 6,
-    },];
+
   });

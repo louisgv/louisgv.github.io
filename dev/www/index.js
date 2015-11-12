@@ -6,10 +6,7 @@
 // 'starter.controllers' is found in controllers.js
 
 angular
-  .module('louisgv', [
-    'ionic',
-    'louisgv.ctrl',
-  ])
+  .module('louisgv', ['ionic', 'louisgv.ctrl'])
   .run(function($ionicPlatform) {
     console.log('run');
     $ionicPlatform.ready(function() {
@@ -30,40 +27,24 @@ angular
     console.log('config');
 
     // if none of the states below are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/');
 
-    $stateProvider
-      .state('louisgv', { //TODO: Change to MenuCtrl
-        url: '',
-        abstract: true,
-        templateUrl: 'com/menu/menu.html',
-        controller: 'MenuCtrl',
-      })
-      .state('louisgv.home', { // TODO: Make into Home Page
-        url: '/home',
-        views: {
-          menuContent: {
-            templateUrl: 'com/home/home.html',
-            controller: 'HomeCtrl',
-          }
+    $stateProvider.state('home', {
+      // TODO: Make into Home Pageurl: '/',
+      url: '/',
+      templateUrl: 'com/home/home.html',
+      controller: 'HomeCtrl'
+    }).state('gjam', {
+      url: '/gjam',
+      templateUrl: 'com/gjam/gjam.html',
+      controller: 'GJamCtrl'
+    }).state('hack', {
+      url: '/hack',
+      views: {
+        menuContent: {
+          templateUrl: 'com/hack/hack.html',
+          controller: 'HackCtrl'
         }
-      })
-      .state('gjam', {
-        url: '/gjam',
-        views: {
-          menuContent: {
-            templateUrl: 'com/gjam/gjam.html',
-            controller: 'GJamCtrl',
-          },
-        },
-      })
-      .state('hack', {
-        url: '/hack',
-        views: {
-          menuContent: {
-            templateUrl: 'com/hack/hack.html',
-            controller: 'HackCtrl',
-          },
-        },
-      });
+      }
+    });
   });
