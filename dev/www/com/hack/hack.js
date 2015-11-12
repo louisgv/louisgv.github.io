@@ -1,6 +1,6 @@
 angular.module('louisgv.ctrl')
-  .controller('HatCtrl', function($scope, $ionicModal, $timeout) {
-    console.log('HatCtrl');
+  .controller('HackCtrl', function($scope, $http,$ionicLoading) {
+    console.log('HackCtrl');
 
     // With the new view caching in Ionic, Controllers are only called
     // when they are recreated or on app start, instead of every page change.
@@ -8,35 +8,16 @@ angular.module('louisgv.ctrl')
     // listen for the $ionicView.enter event:
     //$scope.$on('$ionicView.enter', function(e) {
     //});
-
-    // Form data for the login modal
-    $scope.loginData = {};
-
-    // Create the login modal that we will use later
-    $ionicModal.fromTemplateUrl('mod/login.html', {
-      scope: $scope,
-    }).then(function(modal) {
-      $scope.modal = modal;
+    $ionicLoading.show({
+     template: 'Loading...'
     });
-
-    // Triggered in the login modal to close it
-    $scope.closeLogin = function() {
-      $scope.modal.hide();
-    };
-
-    // Open the login modal
-    $scope.login = function() {
-      $scope.modal.show();
-    };
-
-    // Perform the login action when the user submits the login form
-    $scope.doLogin = function() {
-      console.log('Doing login', $scope.loginData);
-
-      // Simulate a login delay. Remove this and replace with your login
-      // code if using a login system
-      $timeout(function() {
-        $scope.closeLogin();
-      }, 1000);
-    };
+    $scope.events = [];
+    $scope.$on('$ionicView.enter', function(e) {
+      $http.get('/com/hack/db.json').success(function(data) {
+        // The json data will now be in scope.
+        // console.log(data);
+        $scope.events = data.hack;
+        $ionicLoading.hide();
+      });
+    });
   });

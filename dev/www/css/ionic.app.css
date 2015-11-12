@@ -9300,13 +9300,10 @@ a.button {
   background: tan; }
 
 .gjam ion-content {
-  background: gray; }
+  background: #387ef5; }
 
-.gjam .cardWrapper {
-  max-height: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+.hack ion-content {
+  background: #444; }
 
 .home ion-content {
   background: lightgreen; }
