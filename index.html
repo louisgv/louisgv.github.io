@@ -2,16 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title> L.A.B </title>
+
   <meta name="author" content="Louis Vichy @LGVichy" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <meta name="description" content="L.A.B's online portfolio and blog repository" />
 
   <!--styles-->
 
-  <link rel="icon" type="image/ico" href="www/img/AngeIBlack.png" />
+  <link rel="icon" type="image/ico" href="www/img/ab.png" />
 
   <link rel="stylesheet" type="text/css" href="www/lib/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="www/lib/css/slider.css" />
@@ -38,34 +38,40 @@
 
 </head>
 <!-- Main page design: A trial of dark ink flow from the main image. Will be the same as one of those palla-->
-<!--<img class="span"src="www/img/AngeI000.png"/>-->
+<!--<img class="span"src="www/img/aw.png"/>-->
 
 <body>
   <!--Avatar-->
 
-  <div class="contact linkedin">
-    <a href="https://www.linkedin.com/in/louisgv">
+  <a target="_blank" href="https://www.linkedin.com/in/louisgv">
+    <div class="contact linkedin">
       <span class="fa fa-linkedin"></span>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="contact facebook">
-    <a href="https://www.facebook.com/billhainh">
+  <a target="_blank" href="https://www.facebook.com/billhainh">
+    <div class="contact facebook">
       <span class="fa fa-facebook"></span>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="contact twitter">
-    <a href="https://twitter.com/LGVichy">
+  <a target="_blank" href="https://twitter.com/LGVichy">
+    <div class="contact twitter">
       <span class="fa fa-twitter"></span>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="contact github">
-    <a href="https://github.com/louisgv">
+  <a target="_blank" href="https://github.com/louisgv">
+    <div class="contact github">
       <span class="fa fa-github"></span>
-    </a>
-  </div>
+    </div>
+  </a>
+
+  <a href="#about" id="scroll-to-top">
+    <div class="contact scrolltop">
+      <span class="fa fa-arrow-up"></span>
+    </div>
+  </a>
 
   <div class="header-wrapper">
     <div id="header" class="container span">
@@ -79,26 +85,36 @@
     <!--
 	    <div  id="menu">
 		<ul>
-		    <li class="active"><a href="#game-projects" accesskey="1" title="">I</a></li>
-		    <li class="active"><a href="#side-projects" accesskey="2" title="">II</a></li>
-		    <li class="active"><a href="#learning" accesskey="3" title="">III</a></li>
-		    <li class="active"><a href="#game-jam" accesskey="4" title="">IV</a></li>
-		    <li class="active"><a href="#hack-a-thons" accesskey="5" title="">V</a></li>
+		    <li class="active"><a target="_blank" href="#game-projects" accesskey="1" title="">I</a></li>
+		    <li class="active"><a target="_blank" href="#side-projects" accesskey="2" title="">II</a></li>
+		    <li class="active"><a target="_blank" href="#learning" accesskey="3" title="">III</a></li>
+		    <li class="active"><a target="_blank" href="#game-jam" accesskey="4" title="">IV</a></li>
+		    <li class="active"><a target="_blank" href="#hack-a-thons" accesskey="5" title="">V</a></li>
 		</ul>
 	    </div>
 	    -->
 
 
-
     <div id="banner" class="container">
       <div class="title">
-        <h2 class="glowing">L.A.B</h2>
-        <span class="byline glowing">Game Director</span>
-        <p class="byline glowing">Game Jam and Hack-a-thon Addict</p>
+        <h2 class="glowing">
+          L.A.B
+        </h2>
+        <span class="byline glowing">Night Walker</span>
+        <p class="byline glowing">
+          <a href="./dev/www/index.html" target="_blank">
+            Game Jam and Hack-a-thon Addict
+          </a>
+        </p>
       </div>
       <ul class="actions glowing">
-        <li> Scroll &#8595; for More</li>
+        <li>
+          <a href="#about" id="more">
+            Tell me More
+          </a>
+        </li>
       </ul>
+      &#8595;
     </div>
 
   </div>
@@ -116,17 +132,53 @@
     <!--Twitter-->
     <!--FaceBook-->
     <!--Other Projects?-->
-    <div class="span">
+    <div id="about" class="span">
       <!--javascrip:void(0) ??-->
-      <img id="game-projects" class="span" alt="PlaceHolder" src="www/img/AngeIBlack.png" />
-      <!-- TODO: Test the colour!-->
-      <!--  <img class="span" alt="PlaceHolder" src="www/img/AngeI000.png"/>-->
-
       <div class="wrapper">
         <div class="three-column container">
           <div class="title">
-            <h2>Game Projects</h2>
-            <span class="byline">Requires Unity Runtime. A linux package is available through email.</span>
+            <h2>I do a lot</h2>
+            <span class="byline"> of Everything</span>
+          </div>
+          <div class="boxA">
+            <span class="fa fa-github"></span>
+            <p>
+              <h3>Programming</h3>
+            </p>
+            <p>My public repos reside on github. Open source is awesome, and free softwares are blessins. I do have private repos tho!</p>
+            <a target="_blank" href="https://github.com/louisgv" class="button button-alt">My Git Repos</a>
+          </div>
+          <div class="boxB">
+            <span class="fa fa-pencil"></span>
+            <p>
+              <h3>Bloggin</h3>
+            </p>
+            <p>I blog about trivial stuffs for fun every now and then.
+              <br> If you wish to read, click the button.</p>
+            <a target="_blank" href="https://louisgv.github.io/a-jekyll-blog/" class="button button-alt">My Free-write Portal</a>
+          </div>
+          <div class="boxC">
+            <span class="fa fa-paint-brush"></span>
+            <p>
+              <h3>Drawing</h3>
+            </p>
+            <p>
+              I draw many things out of my head, and publish them using Facebook. Check 'em out below, and have fun!
+            </p>
+            <a target="_blank" href="https://www.facebook.com/billhainh/photos" class="button button-alt">My Facebook Page</a>
+          </div>
+        </div>
+      </div>
+
+      <img class="span separator" alt="PlaceHolder" src="www/img/ab.png" />
+      <!-- TODO: Test the colour!-->
+      <!--  <img class="span" alt="PlaceHolder" src="www/img/aw.png"/>-->
+
+      <div id="game-projects" class="wrapper">
+        <div class="three-column container">
+          <div class="title">
+            <h2>VGP</h2>
+            <span class="byline">Video Game Project</span>
           </div>
           <div class="boxA">
             <span class="fa">
@@ -140,7 +192,7 @@
 
               <br>Note: Zooming out with your mouse!
             </p>
-            <a href="http://gamejolt.com/games/other/fabroll/32617/" class="button button-alt">Roll Portal</a>
+            <a target="_blank" href="http://gamejolt.com/games/other/fabroll/32617/" class="button button-alt">Roll Portal</a>
           </div>
           <div class="boxB">
             <span class="fa">
@@ -152,7 +204,7 @@
             <p>A simple platformer game Made during December 2014 for the PDP jam
               <br> Check it out by clicking the button below!
               <br>Note: Hate being trolled? Don't try it!</p>
-            <a href="http://gamejolt.com/games/platformer/fartman/39633/" class="button button-alt">Fartman Portal</a>
+            <a target="_blank" href="http://gamejolt.com/games/platformer/fartman/39633/" class="button button-alt">Fartman Portal</a>
           </div>
           <div class="boxC">
             <span class="fa">
@@ -163,18 +215,18 @@
             <p>A Story-driven RPG Currently in Development.
               <br>Note: Love Fairy Tales and those old Grimm books? You will love this!
             </p>
-            <!--<a href="#" class="button button-alt">Project Portal</a>-->
+            <!--<a target="_blank" href="#" class="button button-alt">Project Portal</a>-->
           </div>
         </div>
       </div>
 
-      <img id="side-projects" class="span" alt="PlaceHolder" src="www/img/AngeI000.png" />
+      <img class="span separator" alt="PlaceHolder" src="www/img/aw.png" />
 
-      <div class="wrapper">
+      <div id="side-projects" class="wrapper">
         <div class="three-column container">
           <div class="title">
-            <h2>Research, Side-projects</h2>
-            <span class="byline"> I did several side projects to research concepts and tools</span>
+            <h2>SPS</h2>
+            <span class="byline">Side Projects Stuff</span>
           </div>
           <div class="boxA">
             <span class="fa fa-archive"></span>
@@ -184,14 +236,14 @@
             <p> What seems to be interesting at first turns out to be kind of impossible to visualize in my head.
               <br> Eventually realized that the rest of the world converts back and forth from Euler angles to Quaternion. </p>
             <br> Try the testing tool! Unity Run-time required!
-            <a href="Pages/000-Quaternion-CubeTest/000-Quaternion-CubeTest.html" class="button button-alt">Quaternion-CubeTest</a>
+            <a target="_blank" href="Pages/000-Quaternion-CubeTest/000-Quaternion-CubeTest.html" class="button button-alt">Quaternion-CubeTest</a>
 
           </div>
 
 
           <div class="boxB">
             <span class="fa">
-              <img src="www/img/AngeIBlack.png " width="34" height="34" />
+              <img src="www/img/ab.png " width="34" height="34" />
             </span>
             <p>
               <h3>AngeI: Simple Character Crafter</h3>
@@ -199,7 +251,7 @@
             <p> A little Character Crafter made during the January of 2014.
               <br> Struggled a lot with the tile placements... </p>
             <br> Android Demo is available through contact! Web Demo coming soon...
-            <!-- <a href="http://tomorrowsgamer.com/news/hog-jam-2-free-chicken-weird-chicken/" class="button button-alt">Fowl Play</a>-->
+            <!-- <a target="_blank" href="http://tomorrowsgamer.com/news/hog-jam-2-free-chicken-weird-chicken/" class="button button-alt">Fowl Play</a>-->
           </div>
 
           <div class="boxC">
@@ -209,51 +261,15 @@
             </p>
             <p>When I was in High School for GS, my TA introduced me to UVA and helped me solve lots of Problem there!</p>
             <p> I would love to discuss them with anyone!</p>
-            <a href="http://uhunt.felix-halim.net/id/126161" class="button button-alt">Uhunt Statistic</a>
+            <a target="_blank" href="http://uhunt.felix-halim.net/id/126161" class="button button-alt">Uhunt Statistic</a>
           </div>
 
         </div>
       </div>
 
-      <img id="learning" class="span" alt="PlaceHolder" src="www/img/AngeIBlack.png" />
+      <img class="span separator" alt="PlaceHolder" src="www/img/ab.png" />
 
-      <div class="wrapper">
-        <div class="three-column container">
-          <div class="title">
-            <h2>I'm Learning</h2>
-            <span class="byline">My Goal is to become a Game Director who Respect his Peer, and be able to Works with Everyone at the scene</span>
-          </div>
-          <div class="boxA">
-            <span class="fa fa-github"></span>
-            <p>
-              <h3>Programming</h3>
-            </p>
-            <p>My public repos reside on github. Open source is awesome, and free software is bliss. I do have private repos tho!</p>
-            <a href="https://github.com/louisgv" class="button button-alt">My Git Repos</a>
-          </div>
-          <div class="boxB">
-            <span class="fa fa-pencil"></span>
-            <p>
-              <h3>Bloggin</h3>
-            </p>
-            <p>I blog about trivial stuffs for fun every now and then.
-              <br> If you wish to read, click the button.</p>
-            <a href="https://louisgv.github.io/a-jekyll-blog/" class="button button-alt">My Free-write Portal</a>
-          </div>
-          <div class="boxC">
-            <span class="fa fa-paint-brush"></span>
-            <p>
-              <h3>Drawing</h3>
-            </p>
-            <p>I draw many things out of my head, and publish them using Facebook. Check 'em out below, and have fun! </p>
-            <a href="https://www.facebook.com/billhainh/photos" class="button button-alt">My Facebook Page</a>
-          </div>
-        </div>
-      </div>
-
-      <img id="game-jam" class="span" alt="PlaceHolder" src="www/img/AngeI000.png" />
-
-      <div class="wrapper">
+      <div id="gjam" class="wrapper">
         <div class="three-column container">
           <div class="title">
             <h2>Game Jam</h2>
@@ -271,7 +287,7 @@
             But overall, it was fun and great. The product turn out to be superb, thanks to all of the wonderful teammates!
             <br>
             <p> Teammates: Nate Thompson, Chris Lorenz, Robby Zinchak, Mike Nicholson, Evan Witts, Keegan O'Rourke, John Krajewski, Yueqi Sheng, Alain Orbino, Jason Chuang</p>
-            <a href="http://blog.8bitmmo.net/2013/10/lifeline-a-gamejam-game-made-in-28-hours/" class="button button-alt">LifeLine</a>
+            <a target="_blank" href="http://blog.8bitmmo.net/2013/10/lifeline-a-gamejam-game-made-in-28-hours/" class="button button-alt">LifeLine</a>
           </div>
           <div class="boxB">
             <span class="fa fa-compress"></span>
@@ -285,7 +301,7 @@
             <!--Job: Tried to work with multiplayer and network using Unity. Success, but un-needed..</p>-->
             <p> Great team! Everyone pulled out a really cool game that's surprisingly fun to watch! </p>
             <p> Teammates: Mike Nicholson, Ryan Jones, Oliver Chang, Adam Osness </p>
-            <a href="http://tomorrowsgamer.com/news/hog-jam-2-free-chicken-weird-chicken/" class="button button-alt">Fowl Play</a>
+            <a target="_blank" href="http://tomorrowsgamer.com/news/hog-jam-2-free-chicken-weird-chicken/" class="button button-alt">Fowl Play</a>
           </div>
           <div class="boxC">
             <span class="fa fa-compress"></span>
@@ -297,7 +313,7 @@
             <p>Implemented the mouse functionality. Also responsible for the flame and music integration. </p>
             <p> The team was awesome! </p>
             <p> Teammates: Evan Witts the musician, Chris Lorenz the programmer, Travis Forgeon the modeler. </p>
-            <a href="http://lorenzgames.wordpress.com/2014/08/25/hog-5/" class="button button-alt">Mine Cart</a>
+            <a target="_blank" href="http://lorenzgames.wordpress.com/2014/08/25/hog-5/" class="button button-alt">Mine Cart</a>
           </div>
         </div>
       </div>
@@ -315,7 +331,7 @@
             <p>Drawn the background and the warp tunnel. Surprisingly fun!</p>
             <p> At the end, there was only two dev left.. Still cool though!</p>
             <p> Teammates: Oliver Chang, Adam Osness, and Leo Lee</p>
-            <a href="http://tomorrowsgamer.com/news/hogjam-4/" class="button button-alt">Time-Traveling Train</a>
+            <a target="_blank" href="http://tomorrowsgamer.com/news/hogjam-4/" class="button button-alt">Time-Traveling Train</a>
           </div>
 
           <div class="boxB">
@@ -329,7 +345,7 @@
             <p>The game turn out to be pretty cool, but none of the teammates decided to upload it...</p>
             <p>Anyway, Good Job team!</p>
             <p>Teammates: Nick Alston, Doug Haber, Judy Haber and Micheal Ripka </p>
-            <a href="http://tomorrowsgamer.com/news/impact-gaming-challenge-gaming-for-good/" class="button button-alt">Awesome Impact</a>
+            <a target="_blank" href="http://tomorrowsgamer.com/news/impact-gaming-challenge-gaming-for-good/" class="button button-alt">Awesome Impact</a>
           </div>
 
           <div class="boxC">
@@ -343,7 +359,7 @@
             <p>Learnt some more basic Node.js stuffs! Also enhanced my CSS skill. Man, Kumar's eyes for color is a something I've got to learn</p>
             <p>Eric the beard guy sketched out pretty much all the UX I coded. Dang!</p>
             <p>Teammates: Ross Snider, Eric Tucker, Jonathan Kumar </p>
-            <a href="https://github.com/louisgv/morgan" class="button button-alt">morgan</a>
+            <a target="_blank" href="https://github.com/louisgv/morgan" class="button button-alt">morgan</a>
           </div>
         </div>
       </div>
@@ -375,26 +391,12 @@
 
           </div>
 
-          <!-- <div class="boxC">
-            <span class="fa fa-compress"></span>
-            <p>
-              <h3>8-bit History Jam 2015: morgan</h3>
-            </p>
-            <p>A game where players are thrown into a virtual social network where your opinion will be manipulated as the previous player's will. Explore the faked internet, and see if you will be manipulated or not!</p>
-            <p>Position: Senior Programmer, UX Coder </p>
-            <p>Got to meet with Ross again! What a blast!</p>
-            <p>Learnt some more basic Node.js stuffs! Also enhanced my CSS skill. Man, Kumar's eyes for color is a something I've got to learn</p>
-            <p>Eric the beard guy sketched out pretty much all the UX I coded. Dang!</p>
-            <p>Teammates: Ross Snider, Eric Tucker, Jonathan Kumar </p>
-            <a href="https://github.com/louisgv/morgan" class="button button-alt">Mine Cart</a>
-          </div> -->
-
         </div>
       </div>
 
-      <img id="gamejam" class="span" alt="PlaceHolder" src="www/img/AngeI000.png" />
+      <img class="span separator" alt="PlaceHolder" src="www/img/aw.png" />
 
-      <div class="wrapper">
+      <div id="hack" class="wrapper">
         <div class="three-column container">
           <div class="title">
             <h2>Hack-a-Thons</h2>
@@ -439,7 +441,7 @@
             <p>Made a mock-up app using popapp.</p>
             <p>The event was fun! Got to know more hacker and the code school location!</p>
             <p>Teammates: Bennett Lin, Wale Ogundipe, Jonah Kirangi and Kevin Xue </p>
-            <a href="https://popapp.in/w/projects/53f88c17485826e502829141/preview" class="button button-alt">Puntuality || BetCha!</a>
+            <a target="_blank" href="https://popapp.in/w/projects/53f88c17485826e502829141/preview" class="button button-alt">Puntuality || BetCha!</a>
 
           </div>
         </div>
@@ -483,7 +485,7 @@
             <p>We've got a mock-up web-app with full user-flow!</p>
             <p>The event was pretty cool! We won the top-spot overall of the hack! Also, gotta investigate the two hackers who made encryption program! They're pretty cool!</p>
             <p>Teammates: Garret, Bogdan, 2-3 other...</p>
-            <a href="http://bpshonyak.github.io/TravelTag_App/">TravelTag</a>
+            <a target="_blank" href="http://bpshonyak.github.io/TravelTag_App/">TravelTag</a>
 
           </div>
 
@@ -498,7 +500,7 @@
             <p>
               <h3>Hack 7, June 2015: Next 911</h3>
             </p>
-            <p>Predict the next 911 call based on location and time! Open data from <a href="https://data.seattle.gov">Data.Seattle</a>, trained with Microsoft's Azure ML cloud!</p>
+            <p>Predict the next 911 call based on location and time! Open data from <a target="_blank" href="https://data.seattle.gov">Data.Seattle</a>, trained with Microsoft's Azure ML cloud!</p>
             <p>Position: Data Analytic, Feature Design</p>
             <p>The returned result was pretty interesting...</p>
             <p> </p>
@@ -541,7 +543,7 @@
             <h2>@hack_the_dot @hubsea #hackathon</h2>
             <p>Telling your fortune by the sandwich you chose. Pretty ambituos team~</p>
             <p>Position: Feature Design and Secondary Developer</p>
-            <p> Built a very simple front page to show some fun stuff with a sandwich.  </p>
+            <p> Built a very simple front page to show some fun stuff with a sandwich. </p>
 
             <p>Teammates: Bogdan, Chika, Sharah, Justin, Emily, Selmoja,...</p>
           </div>

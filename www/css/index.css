@@ -23,6 +23,10 @@ h1,p:hover,.glowing:hover{
   left: 0;
 }
 
+.separator {
+  width: 90px;
+}
+
 .full-screen {
   display: block;
   height: 100%;
@@ -132,6 +136,11 @@ h1,p:hover,.glowing:hover{
   background: rgb(102,102,102);;
 
   bottom: 36vh;
+}
+
+.scrolltop {
+  background-color: #111111;
+  bottom: 4.5vh;
 }
 
 .fa {
