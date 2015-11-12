@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<ion-view view-title="GameJam" hide-nav-bar="true" class="gjam">
-  <ion-content>
+<ion-view view-title="GameJam" class="gjam">
+  <ion-content class="padding">
 
     <ion-slide-box on-slide-changed="slideHasChanged(index)">
-      <ion-slide ng-repeat="jam in jamDB.jams">
-        <div class="cardWrapper">
+      <ion-slide ng-repeat="jam in jamDB">
           <div class="card">
-
             <div class="item item-text-wrap">
               {{jam.name}}
             </div>
@@ -19,12 +17,11 @@
             <div class="item item-text-wrap">
               {{jam.work}}
             </div>
-            <div class="item item-text-wrap">
+            <!-- <div class="item item-text-wrap">
               {{jam.memb}}
-            </div>
+            </div> -->
 
           </div>
-        </div>
 
       </ion-slide>
     </ion-slide-box>

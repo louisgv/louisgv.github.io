@@ -40,11 +40,7 @@ angular
       controller: 'GJamCtrl'
     }).state('hack', {
       url: '/hack',
-      views: {
-        menuContent: {
-          templateUrl: 'com/hack/hack.html',
-          controller: 'HackCtrl'
-        }
-      }
+      templateUrl: 'com/hack/hack.html',
+      controller: 'HackCtrl'
     });
   });

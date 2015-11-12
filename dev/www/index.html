@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 
-    <title>Louis</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 
-    <!-- compiled css output -->
-    <link href="css/ionic.app.css" rel="stylesheet">
-    <!-- <link href="css/ionic.app.min.css" rel="stylesheet"> -->
+  <title>Louis</title>
 
-    <!-- ionic/angularjs -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <!-- compiled css output -->
+  <link href="css/ionic.app.css" rel="stylesheet">
+  <!-- <link href="css/ionic.app.min.css" rel="stylesheet"> -->
 
-    <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
+  <!-- ionic/angularjs -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
 
-    <!-- app.js -->
-    <script src="index.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
 
-    <!-- ctrl.js -->
-    <script src="com/home/home.js"></script>
-    <script src="com/hack/hack.js"></script>
-    <script src="com/gjam/gjam.js"></script>
-    <script src="com/menu/menu.js"></script>
+  <!-- app.js -->
+  <script src="index.js"></script>
 
-    <!-- dir.js -->
-    <script src="dir/imgold.js"></script>
+  <!-- ctrl.js -->
+  <script src="com/home/home.js"></script>
+  <script src="com/hack/hack.js"></script>
+  <script src="com/gjam/gjam.js"></script>
+  <script src="com/menu/menu.js"></script>
 
-    <!-- fil.js -->
+  <!-- dir.js -->
+  <script src="dir/imgold.js"></script>
 
-    <!-- tracker -->
-    <script>
-      (function(l, o, u, i, s, g, v) {
-        l.GoogleAnalyticsObject = s;
-        l[s] = l[s] || function() {
-          (l[s].q = l[s].q || []).push(arguments);
-        }, l[s].l = 1 * new Date();
-        g = o.createElement(u),
-          v = o.getElementsByTagName(u)[0];
-        g.async = 1;
-        g.src = i;
-        v.parentNode.insertBefore(g, v)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  <!-- fil.js -->
 
-      ga('create', 'UA-63900039-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+  <!-- tracker -->
+  <script>
+    (function(l, o, u, i, s, g, v) {
+      l.GoogleAnalyticsObject = s;
+      l[s] = l[s] || function() {
+        (l[s].q = l[s].q || []).push(arguments);
+      }, l[s].l = 1 * new Date();
+      g = o.createElement(u),
+        v = o.getElementsByTagName(u)[0];
+      g.async = 1;
+      g.src = i;
+      v.parentNode.insertBefore(g, v)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  </head>
+    ga('create', 'UA-63900039-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
-  <body ng-app="louisgv">
-    <ion-nav-view>
-    </ion-nav-view>
-  </body>
+</head>
+
+<body ng-app="louisgv">
+
+  <ion-nav-bar>
+    <ion-nav-back-button class="button-clear">
+      <i class="ion-arrow-left-c"></i> Back
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-nav-view>
+  </ion-nav-view>
+</body>
+
 </html>
