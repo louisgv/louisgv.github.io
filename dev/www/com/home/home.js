@@ -1,7 +1,18 @@
 angular
   .module('louisgv.ctrl', [])
-  .controller('HomeCtrl', function($scope, $ionicModal, $timeout) {
+  .controller('HomeCtrl', function($scope) {
     console.log('HomeCtrl');
+
+    var time = new Date();
+    var h = time.getHours();
+
+    if (h > 18) {
+      $scope.greeting = "\tGood evening, I am";
+    } else if (h > 12) {
+      $scope.greeting = "    Good afternoon, I am";
+    } else {
+      $scope.greeting = "    Good morning! I am";
+    }
 
     // With the new view caching in Ionic, Controllers are only called
     // when they are recreated or on app start, instead of every page change.
