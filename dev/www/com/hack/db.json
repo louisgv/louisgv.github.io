@@ -1,320 +1,279 @@
 {
-  "hack": [{
-    "name": "CodeDay Seattle #2",
-    "date": "November 2015",
-    "team": "Poptart",
-    "proj": "Pop+AR+",
-    "desc": "Extending HauntinAR durinng Facebook hack made the day before.",
-    "role": "Developer, Mentor",
-    "work": "Just getting a lil bit more used to the library. Mainly go around helping other teams during this hack.",
-    "memb": [
-      "LAB"
-    ],
-    "link": ""
-  },{
-    "name": "Diversity Hackathon Facebook",
-    "date": "November 2015",
-    "team": "AdviseMe && HauntinAR",
-    "proj": "AdviseMe && HauntinAR",
-    "desc": "Advising platform that advise user based on their geolocation.",
-    "role": "Tech Lead, Developer",
-    "work": "Guides the main programmer with developing the application",
-    "memb": [
-      "Kawan",
-      "Melinda",
-      "Hsuan-Ting",
-      "Hella"
-    ],
-    "link": ""
-  },{
-    "name": "Hack The Dot #3",
-    "date": "Octorber 2015",
-    "team": "taco.tech",
-    "proj": "Tech in Taco",
-    "desc": "Tech wrapped in Taco, delivered to your door.",
-    "role": "Tech Lead",
-    "work": "Guides teammates with merge task and so on",
-    "memb": [
-      "Yonas",
-      "Shep",
-      "Ara",
-      "Chris"
-    ],
-    "link": ""
-  }, {
-    "name": "Kandy.io Hack",
-    "date": "October 2015",
-    "team": "Dr.Kandy",
-    "proj": "Dr.Kandy",
-    "desc": "WebRTC application for family and their doctor.",
-    "role": "Developer",
-    "work": "Intergrate Kandy.io API. Created patient interface both ends, and doctor interface's front end",
-    "memb": [
-      "Andy",
-      "Alan"
-    ],
-    "link": ""
-  }, {
-    "name": "DubHack 2015",
-    "date": "October 2015",
-    "team": "jabSquared",
-    "proj": "Zydeco",
-    "desc": "Deep insight on Concept using IBM Watson's Concept Insight API",
-    "role": "Developer, Designer",
-    "work": "Back-end, Front-end",
-    "memb": [
-      "Bryan",
-      "Bogdan",
-      "Yonas"
-    ],
-    "link": "https://jabsquared.github.io/ideabox"
-  }, {
-    "name": "Meteor Global Hackathon",
-    "date": "October 2015",
-    "team": "jabSquared",
-    "proj": "highOnLife",
-    "desc": "A game focused on drug effect",
-    "role": "Programmer",
-    "work": "Implement basic controller and background effect",
-    "memb": [
-      "Kris",
-      "Akshay",
-      "Bryan",
-      "Bogdan",
-      "Yonas"
-    ],
-    "link": "highonlife.meteor.com"
-  }, {
-    "name": "Hack for Kenmore 2015",
-    "date": "Sep 2015",
-    "team": "jabSquared",
-    "proj": "Do you want to help Kenmore?",
-    "desc": "A platform that allow the city to outsource community project easier so that citizens can form group and contribute. Project are assgined randomly.",
-    "role": "Designer, Developer, Pitcher",
-    "work": "Developed an mvp in ionic that assign task to user, with dashboard, mockup chat, and session management.",
-    "memb": [
-      "louisgv",
-      "astroBoy",
-      "billhainh"
-    ],
-    "link": ""
-  }, {
-    "name": "AT&T Mobile Hackathon",
-    "date": "Sep 2015",
-    "team": "jabSquared",
-    "proj": "cita",
-    "desc": "An on-the-bike appointment scheduler, specialized for a local barbershop.",
-    "role": "Pitcher",
-    "work": "Developed user story and deliver the pitch. Made audiences laugh.",
-    "memb": [
-      "Bryan",
-      "Bogdan"
-    ],
-    "link": ""
-  }, {
-    "name": "BitTitan's Code and Cocktail",
-    "date": "August 2015",
-    "team": "jabSquared",
-    "proj": "wineMix",
-    "desc": "Linear Algebra model to solve the which crate should one buy puzzle.",
-    "role": "Mathematican",
-    "work": "Researched an optimized normalization algorithm.",
-    "memb": [
-      "Andy",
-      "Bogdan",
-      "Bryan",
-      "Yonas"
-    ],
-    "link": ""
-  }, {
-    "name": "Facebook Meat and Greet",
-    "date": "August 2015",
-    "team": "ba",
-    "proj": "Student Zen",
-    "desc": "A smart profile manager that automatically change your device's behavior based on the context of your environment.",
-    "role": "Strategist",
-    "work": "Researching Cyanogen's Profile library",
-    "memb": [
-      "Alan",
-      "Bogdan"
-    ],
-    "link": ""
-  }, {
-    "name": "Hack the Dot by name.com",
-    "date": "July 2015",
-    "team": "zebraFish",
-    "proj": "sandwish",
-    "desc": "Choose your sandwish and see your fortune unfold.",
-    "role": "Designer and UX Developer",
-    "work": "Styled and make the front page responsive",
-    "memb": [
-      "Bogdan",
-      "Chika",
-      "Sharah",
-      "Justin",
-      "Emily",
-      "Selmoja"
-    ],
-    "link": ""
-  }, {
-    "name": "Sears Hackathon",
-    "date": "July 2015",
-    "team": "jabSquared",
-    "proj": "SnapTech",
-    "desc": "A customer feedback app using WebRTC to allow video communication between user and technicians",
-    "role": "Lead Developer & Technical Director",
-    "work": "Integrated webRTC into the app. Assist teamates with UI implementation and helped preparing the pitch.",
-    "memb": [
-      "Jim",
-      "Aryan",
-      "Bryan",
-      "Bogdan"
-    ],
-    "link": ""
-  }, {
-    "name": "AngelHack 2015",
-    "date": "June 2015",
-    "team": "jabSquared",
-    "proj": "Appointly",
-    "desc": "Real-time appointment scheduling for independent businesses.",
-    "role": "Lead Developer & Technical Director",
-    "work": "Assist teammates to implement the backend SMS services with Twilio and the app UI based on our UX designer's vision.",
-    "memb": [
-      "Jim",
-      "Aryan",
-      "Bryan",
-      "Bogdan"
-    ],
-    "link": ""
-  }, {
-    "name": "Microsoft's Big Data Hackathon",
-    "date": "June 2015",
-    "team": "LAB",
-    "proj": "Next 911",
-    "desc": "Predict the next 911 call based on location and time by study crime pattern with machine learning using K-Cluster and multi-neuronnet regression model. Open data from https://data.seattle.gov",
-    "role": "Data analytic and Data Feature Engineer",
-    "work": "Study 911 data set, normalize the data and use Azure Machine Learning to study the pattern.",
-    "memb": [
-      "louisgv",
-      "astroBoy",
-      "billhainh"
-    ],
-    "link": ""
-  }, {
-    "name": "Codeday Auburn",
-    "date": "May 2015",
-    "team": "travelTag",
-    "proj": "travelTag",
-    "desc": "A travel logging app for frequent traveler, with map-my-journey technology and a quick-tag logging schemas. Stumbled upon Garrett who proposed a very cool story about the hustle of travelers when they wanted to capture their moments. Teamed up with Bogdan, a pretty cool Ruby on Rail guy and two other partial-devs.",
-    "role": "Designer & Strategist",
-    "work": "Implemented the quick-tag schema. Merged everything into the final product.",
-    "memb": [
-      "Garret",
-      "Bogdan",
-      "Viet (?)",
-      "Qui (?)"
-    ],
-    "link": ""
-  }, {
-    "name": "AT&T Mobile Hackathon",
-    "date": "April 2015",
-    "team": "hacktivate",
-    "proj": "hacktivate",
-    "desc": "An app that help event organizer to improve attendees' experience. No more check-in hell, parking hell, and question hell.",
-    "role": "Developer",
-    "work": "Implemented the socket connection for devices to communicate with each other",
-    "memb": [
-      "Chad",
-      "Tommy",
-      "Jimmy",
-      "Frances(?)",
-      "Yii(?),"
-    ],
-    "link": ""
-  }, {
-    "name": "Protohack",
-    "date": "March 2015",
-    "team": "copyTrade",
-    "proj": "copyTrade",
-    "desc": "Copy the best trader",
-    "role": "Designer",
-    "work": "Developed the front-end and the user flow for the product mockup. Designed the UX and front-end elements.",
-    "memb": [
-      "Amit Deo",
-      "Dilip Puluru"
-    ],
-    "link": ""
-  }, {
-    "name": "AT&T Mobile Hackathon",
-    "date": "February 2015",
-    "team": "Bye Bike Thief",
-    "proj": "B-trackr",
-    "desc": "A passive solution to prevent bike thief using social media and gamification.",
-    "role": "Student",
-    "work": "Help out with presentation and troubleshooting. Worked with Intel Edison.",
-    "memb": [
-      "Ori Hadary",
-      "Seaton Gras"
-    ],
-    "link": ""
-  }, {
-    "name": "AT&T Mobile Hackathon",
-    "date": "February 2015",
-    "team": "Bye Bike Thief",
-    "proj": "B-trackr",
-    "desc": "A passive solution to prevent bike thief using social media and gamification.",
-    "role": "Student",
-    "work": "Help out with presentation and troubleshooting. Worked with Intel Edison.",
-    "memb": [
-      "Ori Hadary",
-      "Seaton Gras"
-    ],
-    "link": ""
-  }, {
-    "name": "Youbetme Hackathon",
-    "date": "August 2014",
-    "team": "Punctuality",
-    "proj": "Betcha!",
-    "desc": "A betting app utilizing youbetme API for micro-social betting. Not many coders were there, only enthusiastic entrepreneurs and some designers.",
-    "role": "UX designer",
-    "work": "Made a mock-up using popapp",
-    "memb": [
-      "Bennett Lin",
-      "Wale Ogundipe",
-      "Jonah Kirangi",
-      "Kevin Xue"
-    ],
-    "link": ""
-  }, {
-    "name": "AngelHack 2014",
-    "date": "May 2014",
-    "team": "Nibble",
-    "proj": "nibble",
-    "desc": "A nutritous app whose algorithm recommend user a dish of the day based on the user's initial input of their measurements.",
-    "role": "API tester and integrator",
-    "work": "Requested food image data from Google, Bing and Flickr through REST with OAuth",
-    "memb": [
-      "Alan Meekins the Bot Blacksmith",
-      "Ross Snider the Algorithm Warrior",
-      "Stacia Hartleben the Link Healer",
-      "Robert Greene the UX Wizard"
-    ],
-    "link": ""
-  }, {
-    "name": "Seattle Code for Change",
-    "date": "Feb 2014",
-    "team": "Bus buddy",
-    "proj": "Real-time Bus Map",
-    "desc": "A web app integrating the One-bus away API to tell positions of buses around the Seattle areas.",
-    "role": "Student",
-    "work": "Observe and Practice intergrating JS libraries.",
-    "memb": [
-      "Dominik Moritz",
-      "Adrian Limon",
-      "Orion Ifland",
-      "Alex Miranda",
-      "Jordan Ta"
-    ],
-    "link": ""
-  }]
+  "hack": [
+    {
+      "name": "Facebook Women Hackathon",
+      "date": "November 2015",
+      "team": "SnowBallZ",
+      "proj": "SnowBallZ",
+      "desc": "Charge some snow balls and defeat some giant snowmens, in VR!",
+      "role": "AI Developer",
+      "work": "Setup the base project, Programmed the behavior of the general Controller as well as the Snowball. Then made some AI.",
+      "memb": [
+        "Evie", "Kawan", "Ann"
+      ],
+      "link": "https://github.com/louisgv/SnowBallZ"
+    }, {
+      "name": "CodeDay Seattle #2",
+      "date": "November 2015",
+      "team": "Poptart",
+      "proj": "Pop+AR+",
+      "desc": "Extended the HauntinAR made durinng Facebook the day before.",
+      "role": "Developer, Mentor",
+      "work": "Just getting a lil bit more used to the library. Mainly go around helping other teams during this hack.",
+      "memb": ["LAB"],
+      "link": ""
+    }, {
+      "name": "Diversity Hackathon Facebook",
+      "date": "November 2015",
+      "team": "AdviseMe && HauntinAR",
+      "proj": "AdviseMe && HauntinAR",
+      "desc": "Advising platform that advise user based on their geolocation.",
+      "role": "Tech Lead, Developer",
+      "work": "Guides the main programmer with developing the application",
+      "memb": [
+        "Kawan", "Melinda", "Hsuan-Ting", "Hella"
+      ],
+      "link": ""
+    }, {
+      "name": "Hack The Dot #3",
+      "date": "Octorber 2015",
+      "team": "taco.tech",
+      "proj": "Tech in Taco",
+      "desc": "Tech wrapped in Taco, delivered to your door.",
+      "role": "Tech Lead",
+      "work": "Guides teammates with merge task and so on",
+      "memb": [
+        "Yonas", "Shep", "Ara", "Chris"
+      ],
+      "link": ""
+    }, {
+      "name": "Kandy.io Hack",
+      "date": "October 2015",
+      "team": "Dr.Kandy",
+      "proj": "Dr.Kandy",
+      "desc": "WebRTC application for family and their doctor.",
+      "role": "Developer",
+      "work": "Intergrate Kandy.io API. Created patient interface both ends, and doctor interface's front end",
+      "memb": [
+        "Andy", "Alan"
+      ],
+      "link": ""
+    }, {
+      "name": "DubHack 2015",
+      "date": "October 2015",
+      "team": "jabSquared",
+      "proj": "Zydeco",
+      "desc": "Deep insight on Concept using IBM Watson's Concept Insight API",
+      "role": "Developer, Designer",
+      "work": "Back-end, Front-end",
+      "memb": [
+        "Bryan", "Bogdan", "Yonas"
+      ],
+      "link": "https://jabsquared.github.io/ideabox"
+    }, {
+      "name": "Meteor Global Hackathon",
+      "date": "October 2015",
+      "team": "jabSquared",
+      "proj": "highOnLife",
+      "desc": "A game focused on drug effect",
+      "role": "Programmer",
+      "work": "Implement basic controller and background effect",
+      "memb": [
+        "Kris", "Akshay", "Bryan", "Bogdan", "Yonas"
+      ],
+      "link": "highonlife.meteor.com"
+    }, {
+      "name": "Hack for Kenmore 2015",
+      "date": "Sep 2015",
+      "team": "jabSquared",
+      "proj": "Do you want to help Kenmore?",
+      "desc": "A platform that allow the city to outsource community project easier so that citizens can form group and contribute. Project are assgined randomly.",
+      "role": "Designer, Developer, Pitcher",
+      "work": "Developed an mvp in ionic that assign task to user, with dashboard, mockup chat, and session management.",
+      "memb": [
+        "louisgv", "astroBoy", "billhainh"
+      ],
+      "link": ""
+    }, {
+      "name": "AT&T Mobile Hackathon",
+      "date": "Sep 2015",
+      "team": "jabSquared",
+      "proj": "cita",
+      "desc": "An on-the-bike appointment scheduler, specialized for a local barbershop.",
+      "role": "Pitcher",
+      "work": "Developed user story and deliver the pitch. Made audiences laugh.",
+      "memb": [
+        "Bryan", "Bogdan"
+      ],
+      "link": ""
+    }, {
+      "name": "BitTitan's Code and Cocktail",
+      "date": "August 2015",
+      "team": "jabSquared",
+      "proj": "wineMix",
+      "desc": "Linear Algebra model to solve the which crate should one buy puzzle.",
+      "role": "Mathematican",
+      "work": "Researched an optimized normalization algorithm.",
+      "memb": [
+        "Andy", "Bogdan", "Bryan", "Yonas"
+      ],
+      "link": ""
+    }, {
+      "name": "Facebook Meat and Greet",
+      "date": "August 2015",
+      "team": "ba",
+      "proj": "Student Zen",
+      "desc": "A smart profile manager that automatically change your device's behavior based on the context of your environment.",
+      "role": "Strategist",
+      "work": "Researching Cyanogen's Profile library",
+      "memb": [
+        "Alan", "Bogdan"
+      ],
+      "link": ""
+    }, {
+      "name": "Hack the Dot by name.com",
+      "date": "July 2015",
+      "team": "zebraFish",
+      "proj": "sandwish",
+      "desc": "Choose your sandwish and see your fortune unfold.",
+      "role": "Designer and UX Developer",
+      "work": "Styled and make the front page responsive",
+      "memb": [
+        "Bogdan", "Chika", "Sharah", "Justin", "Emily", "Selmoja"
+      ],
+      "link": ""
+    }, {
+      "name": "Sears Hackathon",
+      "date": "July 2015",
+      "team": "jabSquared",
+      "proj": "SnapTech",
+      "desc": "A customer feedback app using WebRTC to allow video communication between user and technicians",
+      "role": "Lead Developer & Technical Director",
+      "work": "Integrated webRTC into the app. Assist teamates with UI implementation and helped preparing the pitch.",
+      "memb": [
+        "Jim", "Aryan", "Bryan", "Bogdan"
+      ],
+      "link": ""
+    }, {
+      "name": "AngelHack 2015",
+      "date": "June 2015",
+      "team": "jabSquared",
+      "proj": "Appointly",
+      "desc": "Real-time appointment scheduling for independent businesses.",
+      "role": "Lead Developer & Technical Director",
+      "work": "Assist teammates to implement the backend SMS services with Twilio and the app UI based on our UX designer's vision.",
+      "memb": [
+        "Jim", "Aryan", "Bryan", "Bogdan"
+      ],
+      "link": ""
+    }, {
+      "name": "Microsoft's Big Data Hackathon",
+      "date": "June 2015",
+      "team": "LAB",
+      "proj": "Next 911",
+      "desc": "Predict the next 911 call based on location and time by study crime pattern with machine learning using K-Cluster and multi-neuronnet regression model. Open data from https://data.seattle.gov",
+      "role": "Data analytic and Data Feature Engineer",
+      "work": "Study 911 data set, normalize the data and use Azure Machine Learning to study the pattern.",
+      "memb": [
+        "louisgv", "astroBoy", "billhainh"
+      ],
+      "link": ""
+    }, {
+      "name": "Codeday Auburn",
+      "date": "May 2015",
+      "team": "travelTag",
+      "proj": "travelTag",
+      "desc": "A travel logging app for frequent traveler, with map-my-journey technology and a quick-tag logging schemas. Stumbled upon Garrett who proposed a very cool story about the hustle of travelers when they wanted to capture their moments. Teamed up with Bogdan, a pretty cool Ruby on Rail guy and two other partial-devs.",
+      "role": "Designer & Strategist",
+      "work": "Implemented the quick-tag schema. Merged everything into the final product.",
+      "memb": [
+        "Garret", "Bogdan", "Viet (?)", "Qui (?)"
+      ],
+      "link": ""
+    }, {
+      "name": "AT&T Mobile Hackathon",
+      "date": "April 2015",
+      "team": "hacktivate",
+      "proj": "hacktivate",
+      "desc": "An app that help event organizer to improve attendees' experience. No more check-in hell, parking hell, and question hell.",
+      "role": "Developer",
+      "work": "Implemented the socket connection for devices to communicate with each other",
+      "memb": [
+        "Chad", "Tommy", "Jimmy", "Frances(?)", "Yii(?),"
+      ],
+      "link": ""
+    }, {
+      "name": "Protohack",
+      "date": "March 2015",
+      "team": "copyTrade",
+      "proj": "copyTrade",
+      "desc": "Copy the best trader",
+      "role": "Designer",
+      "work": "Developed the front-end and the user flow for the product mockup. Designed the UX and front-end elements.",
+      "memb": [
+        "Amit Deo", "Dilip Puluru"
+      ],
+      "link": ""
+    }, {
+      "name": "AT&T Mobile Hackathon",
+      "date": "February 2015",
+      "team": "Bye Bike Thief",
+      "proj": "B-trackr",
+      "desc": "A passive solution to prevent bike thief using social media and gamification.",
+      "role": "Student",
+      "work": "Help out with presentation and troubleshooting. Worked with Intel Edison.",
+      "memb": [
+        "Ori Hadary", "Seaton Gras"
+      ],
+      "link": ""
+    }, {
+      "name": "AT&T Mobile Hackathon",
+      "date": "February 2015",
+      "team": "Bye Bike Thief",
+      "proj": "B-trackr",
+      "desc": "A passive solution to prevent bike thief using social media and gamification.",
+      "role": "Student",
+      "work": "Help out with presentation and troubleshooting. Worked with Intel Edison.",
+      "memb": [
+        "Ori Hadary", "Seaton Gras"
+      ],
+      "link": ""
+    }, {
+      "name": "Youbetme Hackathon",
+      "date": "August 2014",
+      "team": "Punctuality",
+      "proj": "Betcha!",
+      "desc": "A betting app utilizing youbetme API for micro-social betting. Not many coders were there, only enthusiastic entrepreneurs and some designers.",
+      "role": "UX designer",
+      "work": "Made a mock-up using popapp",
+      "memb": [
+        "Bennett Lin", "Wale Ogundipe", "Jonah Kirangi", "Kevin Xue"
+      ],
+      "link": ""
+    }, {
+      "name": "AngelHack 2014",
+      "date": "May 2014",
+      "team": "Nibble",
+      "proj": "nibble",
+      "desc": "A nutritous app whose algorithm recommend user a dish of the day based on the user's initial input of their measurements.",
+      "role": "API tester and integrator",
+      "work": "Requested food image data from Google, Bing and Flickr through REST with OAuth",
+      "memb": [
+        "Alan Meekins the Bot Blacksmith", "Ross Snider the Algorithm Warrior", "Stacia Hartleben the Link Healer", "Robert Greene the UX Wizard"
+      ],
+      "link": ""
+    }, {
+      "name": "Seattle Code for Change",
+      "date": "Feb 2014",
+      "team": "Bus buddy",
+      "proj": "Real-time Bus Map",
+      "desc": "A web app integrating the One-bus away API to tell positions of buses around the Seattle areas.",
+      "role": "Student",
+      "work": "Observe and Practice intergrating JS libraries.",
+      "memb": [
+        "Dominik Moritz", "Adrian Limon", "Orion Ifland", "Alex Miranda", "Jordan Ta"
+      ],
+      "link": ""
+    }
+  ]
 }

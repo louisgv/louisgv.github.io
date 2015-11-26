@@ -1,5 +1,18 @@
 {
   "jams": [{
+    "name": "ChillJam",
+    "date": "November 2015",
+    "team": "Hack and Chill",
+    "proj": "KatKlicker",
+    "desc": "A kitty cliker game",
+    "role": "Programmer",
+    "work": "Implemented basic controller and sound",
+    "memb": [
+      "Alisa",
+      "Kawan"
+    ],
+    "link": "highonlife.meteor.com"
+    }, {
     "name": "PlayFab Jam",
     "date": "October 2015",
     "team": "jabSquared",
