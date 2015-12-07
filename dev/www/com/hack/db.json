@@ -1,6 +1,18 @@
 {
   "hack": [
     {
+      "name": "HackPDX with AirBnB",
+      "date": "December 2015",
+      "team": "QUAN",
+      "proj": "QUAN",
+      "desc": "Question and Answer application for teacher and student interaction. Built with Ionic and Socket.io",
+      "role": "Backend Developer",
+      "work": "Hybrid application for teacher and student interaction as well as real-time dashboard",
+      "memb": [
+        "jabSquared", "Robert"
+      ],
+      "link": ""
+    },{
       "name": "Facebook Women Hackathon",
       "date": "November 2015",
       "team": "SnowBallZ",
