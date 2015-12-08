@@ -12,7 +12,7 @@ angular
    });
     $scope.events = [];
     $scope.$on('$ionicView.enter', function(e) {
-      $http.get('https://raw.githubusercontent.com/louisgv/louisgv.github.io/master/dev/www/com/gjam/db.json').success(function(data) {
+      $http.get('https://raw.githubusercontent.com/louisgv/louisgv.github.io/master/dev/www/com/gjam/gjam.json').success(function(data) {
         // The json data will now be in scope.
         // console.log(data);
         $scope.events = data.jams;
