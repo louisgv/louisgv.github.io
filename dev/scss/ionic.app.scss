@@ -17,12 +17,11 @@ $dark:                            #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: '../lib/ionic/fonts' !default;
 
-$coms: menu gjam hack home;
-
 // Include all of Ionic
-@import "www/lib/ionic/scss/ionic";
-
-@each $com in $coms
-  @import "www/com/{$com}/{$com}";
-
-@import "global";
+@import
+  "www/lib/ionic/scss/ionic",
+  "www/com/menu/menu",
+  "www/com/gjam/gjam",
+  "www/com/hack/hack",
+  "www/com//home/home",
+  "global";

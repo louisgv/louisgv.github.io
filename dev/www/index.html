@@ -54,9 +54,12 @@
 <body ng-app="louisgv">
 
   <ion-nav-bar class="bar-dark">
-    <ion-nav-back-button class="button-clear">
-      <i class="ion-arrow-left-c"></i> Back
-    </ion-nav-back-button>
+    <ion-nav-buttons side="left">
+      <a nav-direction="back" href="#/">
+        <button class="button button-clear icon-left ion-grid">
+        </button>
+      </a>
+    </ion-nav-buttons>
   </ion-nav-bar>
 
   <ion-nav-view>

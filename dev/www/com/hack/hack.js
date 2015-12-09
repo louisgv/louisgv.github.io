@@ -13,7 +13,8 @@ angular.module('louisgv.ctrl')
     });
     $scope.events = [];
     $scope.$on('$ionicView.enter', function(e) {
-      $http.get('https://raw.githubusercontent.com/louisgv/louisgv.github.io/master/dev/www/com/hack/hack.json').success(function(data) {
+      // $http.get('https://raw.githubusercontent.com/louisgv/louisgv.github.io/master/dev/www/com/hack/hack.json').success(function(data) {
+      $http.get('./com/hack/hack.json').success(function(data) {
         // The json data will now be in scope.
         // console.log(data);
         $scope.events = data.hack;
