@@ -7,8 +7,10 @@ function GameJamController($scope, $ionicLoading, DatabaseServ) {
   // when they are recreated or on app start, instead of every page change.
   // To listen for when this page is active (for example, to refresh data),
   // listen for the $ionicView.enter event:
+
   $ionicLoading.show({
-    template: 'Loading...'
+    templateUrl: 'mod/load.html',
+    scope: $scope,
   });
 
   $scope.events = [];
@@ -16,6 +18,7 @@ function GameJamController($scope, $ionicLoading, DatabaseServ) {
   $scope.$on('$ionicView.enter', function (e) {
     DatabaseServ.getJams(function (data) {
       $scope.events = data;
+      $scope.count = data.length;
       $ionicLoading.hide();
     })
 

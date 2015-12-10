@@ -9,7 +9,7 @@
       "role": "Backend Developer",
       "work": "Hybrid application for teacher and student interaction as well as real-time dashboard",
       "memb": [
-        "jabSquared", "Robert"
+        "Bryan", "Bogdan", "Chika", "Yonas", "Robert"
       ],
       "link": ""
     },{
@@ -103,7 +103,7 @@
       "role": "Designer, Developer, Pitcher",
       "work": "Developed an mvp in ionic that assign task to user, with dashboard, mockup chat, and session management.",
       "memb": [
-        "louisgv", "astroBoy", "billhainh"
+        "Louis", "Alan", "Bill"
       ],
       "link": ""
     }, {
@@ -187,7 +187,7 @@
       "role": "Data analytic and Data Feature Engineer",
       "work": "Study 911 data set, normalize the data and use Azure Machine Learning to study the pattern.",
       "memb": [
-        "louisgv", "astroBoy", "billhainh"
+        "Louis", "Alan", "Bill"
       ],
       "link": ""
     }, {
@@ -224,18 +224,6 @@
       "work": "Developed the front-end and the user flow for the product mockup. Designed the UX and front-end elements.",
       "memb": [
         "Amit Deo", "Dilip Puluru"
-      ],
-      "link": ""
-    }, {
-      "name": "AT&T Mobile Hackathon",
-      "date": "February 2015",
-      "team": "Bye Bike Thief",
-      "proj": "B-trackr",
-      "desc": "A passive solution to prevent bike thief using social media and gamification.",
-      "role": "Student",
-      "work": "Help out with presentation and troubleshooting. Worked with Intel Edison.",
-      "memb": [
-        "Ori Hadary", "Seaton Gras"
       ],
       "link": ""
     }, {

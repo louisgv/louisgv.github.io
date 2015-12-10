@@ -15,7 +15,8 @@ function HomeCtrl($scope, $ionicLoading, DatabaseServ) {
   }
 
   $ionicLoading.show({
-    template: 'Loading...'
+    templateUrl: 'mod/load.html',
+    scope: $scope,
   });
 
   $scope.count = 0;

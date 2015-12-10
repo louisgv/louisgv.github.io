@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<ion-view view-title="{{events.length}}
+<ion-view view-title="{{count}}
  Hacks" class="hack">
   <ion-content class="padding">
     <ion-list>
-      <ion-item collection-repeat="e in events" ng-click="showDetails($index)">
-        <h2>
-          {{e.name}}
-        </h2>
+      <ion-item collection-repeat="e in events" ng-click="showDetail($index)"
+      class="item-assertive item-icon-right">
+        {{e.name}}
+        <i class="icon ion-ios-paw"></i>
       </ion-item>
     </ion-list>
-
   </ion-content>
 </ion-view>
