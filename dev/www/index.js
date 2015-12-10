@@ -5,42 +5,54 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
 
-angular
-  .module('louisgv', ['ionic', 'louisgv.ctrl'])
-  .run(function($ionicPlatform) {
-    console.log('run');
-    $ionicPlatform.ready(function() {
-      // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-      // for form inputs)
-      if (window.cordova && window.cordova.plugins.Keyboard) {
-        cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-        cordova.plugins.Keyboard.disableScroll(true);
-      }
+var app = angular
+  .module('louisgv', ['ionic'])
+  .config(config)
+  .run(run)
+  .directive('img-on-load', ImageOnLoad)
+  .factory ('DatabaseServ', DatabaseService)
+  .controller('HomeCtrl', HomeCtrl)
+  .controller('GJamCtrl', GameJamController)
+  .controller('HackCtrl', HackathonController);
 
-      if (window.StatusBar) {
-        // org.apache.cordova.statusbar required
-        StatusBar.styleDefault();
-      }
-    });
-  })
-  .config(function($stateProvider, $urlRouterProvider) {
-    console.log('config');
+function config($stateProvider, $urlRouterProvider) {
+  console.log('config');
 
-    // if none of the states below are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/');
+  // if none of the states below are matched, use this as the fallback
+  $urlRouterProvider.otherwise('/');
 
-    $stateProvider.state('home', {
+  $stateProvider.state('home', {
       // TODO: Make into Home Pageurl: '/',
       url: '/',
       templateUrl: 'com/home/home.html',
       controller: 'HomeCtrl'
-    }).state('gjam', {
+    })
+    .state('gjam', {
       url: '/gjam',
       templateUrl: 'com/gjam/gjam.html',
       controller: 'GJamCtrl'
-    }).state('hack', {
+    })
+    .state('hack', {
       url: '/hack',
       templateUrl: 'com/hack/hack.html',
       controller: 'HackCtrl'
     });
+}
+
+function run($ionicPlatform) {
+  console.log('run');
+
+  $ionicPlatform.ready(function () {
+    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
+    // for form inputs)
+    if(window.cordova && window.cordova.plugins.Keyboard) {
+      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+      cordova.plugins.Keyboard.disableScroll(true);
+    }
+
+    if(window.StatusBar) {
+      // org.apache.cordova.statusbar required
+      StatusBar.styleDefault();
+    }
   });
+}
