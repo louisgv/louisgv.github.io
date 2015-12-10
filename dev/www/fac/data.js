@@ -8,45 +8,47 @@ function DatabaseService($http) {
   var DB_URIS = [
     './com/gjam/gjam.json',
     './com/hack/hack.json'
-  ]
+  ];
 
   return {
-    getEvent: function (uri, callback) {
+    getEvents: function (uri, callback) {
       $http.get(uri)
         .success(function (data) {
           // The json data will now be in scope.
           // console.log(data);
-          callback(data);
+          callback(data.base);
         });
     },
     getJams: function (callback) {
-      this.getEvent(DB_URIS[0], function (data) {
-        gjams = data.gjam;
-        callback(data.gjam);
+      this.getEvents(DB_URIS[0], function (base) {
+        gjams = base;
+        callback(gjams);
       });
     },
     getHacks: function (callback) {
-      this.getEvent(DB_URIS[1], function (data) {
-        hacks = data.hacks;
-        callback(data.hack);
+      this.getEvents(DB_URIS[1], function (base) {
+        hacks = base;
+        callback(hacks);
       });
     },
     getEventCount: function (callback) {
-      var count = 0;
+      var hackCount = 0;
+      var gjamCount = 0;
       this.getHacks(function (hacks) {
-        count += hacks.length;
+        hackCount = hacks.length;
       });
       this.getJams(function (gjams) {
         // callback(count);
-        count += gjams.length;
-        callback(count);
+        gjamCount = gjams.length;
+        callback(hackCount, gjamCount);
       });
     },
     getRandomEvent: function (callback) {
-      var i = Math.round(Math.random() * 2);
-      this.getEvent(DB_URIS[i], function (events) {
-        var j = Math.round(Math.random() * events.length);
-        callback(events[j]);
+      var i = Math.round(Math.random());
+      this.getEvents(DB_URIS[i], function (base) {
+        var j = Math.round(Math.random() * base.length);
+        // console.log(base);
+        callback(base[j]);
       });
     },
   }

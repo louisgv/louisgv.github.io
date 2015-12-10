@@ -9233,6 +9233,14 @@ a.button {
   -webkit-animation-name: rollOut;
   animation-name: rollOut; }
 
+.bottom-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 0; }
+  .bottom-content.row {
+    padding: 0; }
+
 a {
   text-decoration: none; }
 

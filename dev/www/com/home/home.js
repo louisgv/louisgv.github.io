@@ -20,13 +20,24 @@ function HomeCtrl($scope, $ionicLoading, DatabaseServ) {
   });
 
   $scope.count = 0;
-
+  $scope.chosen = {};
   $scope.$on('$ionicView.enter', function (e) {
-    DatabaseServ.getEventCount(function (data) {
-      $scope.count = data;
+    DatabaseServ.getEventCount(function (hackCount, gjamCount) {
+      $scope.count = hackCount + gjamCount;
+      $scope.hackCount = hackCount;
+      $scope.gjamCount = gjamCount;
+    });
+    DatabaseServ.getRandomEvent(function (data) {
+      $scope.chosen = data;
       $ionicLoading.hide();
-    })
+    });
 
   });
 
+  $scope.doRefresh = function () {
+    DatabaseServ.getRandomEvent(function (data) {
+      $scope.chosen = data;
+      $scope.$broadcast('scroll.refreshComplete');
+    });
+  };
 };

@@ -4,30 +4,84 @@
     Attended : {{count}}
   </ion-nav-title>
 
-  <ion-content>
+  <ion-content class="has-footer">
+    <ion-refresher pulling-text="Pull for random event ..." on-refresh="doRefresh()">
+    </ion-refresher>
+    <div class="list card">
+      <ion-item class="item-positive item-divider">
+        Title
+      </ion-item>
+      <ion-item>
+        {{chosen.name}}
+      </ion-item>
 
-    <div class="row">
+      <ion-item class="item-positive item-divider">
+        Project
+      </ion-item>
+      <ion-item class="item-text-wrap">
+        {{chosen.proj}}
+      </ion-item>
 
-      <div class="col">
-        <a href="#/hack">
-          <button class="button button-dark button-full">
-          <i class="ion-arrow-up-a"></i>
-            Hackathon
-          </button>
-        </a>
-      </div>
+      <ion-item class="item-positive item-divider">
+        Description
+      </ion-item>
+      <ion-item class="item-text-wrap">
+        {{chosen.desc}}
+      </ion-item>
 
-      <div class="col">
-        <a href="#/gjam">
-          <button class="button button-dark button-full">
-            <i class="ion-star"></i>
-            Gamejam
-          </button>
-        </a>
-      </div>
+      <ion-item class="item-positive item-divider">
+        Role
+      </ion-item>
+      <ion-item class="item-text-wrap">
+        {{chosen.role}}
+      </ion-item>
 
+      <ion-item class="item-positive item-divider">
+        Work
+      </ion-item>
+      <ion-item class="item-text-wrap">
+        {{chosen.work}}
+      </ion-item>
+
+      <ion-item class="item-positive item-divider">
+        Team
+      </ion-item>
+      <ion-item class="item-text-wrap">
+        {{chosen.team}}
+      </ion-item>
+
+      <ion-item class="item-positive item-divider">
+        Members
+      </ion-item>
+      <ion-item ng-repeat="mem in chosen.memb">
+        {{mem}}
+      </ion-item>
+
+      <ion-item class="item-positive item-divider">
+        Date
+      </ion-item>
+      <ion-item class="item-text-wrap">
+        {{chosen.date}}
+      </ion-item>
+
+      <a ng-if="chosen.link" ng-href="{{chosen.link}}" target="_blank">
+        <ion-item class="item-positive item-divider">
+          <i class="icon ion-link"></i> /
+          <i class="icon ion-social-github"></i>
+        </ion-item>
+      </a>
     </div>
 
-
   </ion-content>
+
+  <div class="bottom-content button-bar ">
+    <a href="#/hack" class="button button-dark">
+        {{hackCount}}
+        Hackathons
+    </a>
+    <a href="#/gjam" class="button button-dark">
+        {{gjamCount}}
+        Gamejams
+    </a>
+  </div>
 </ion-view>
