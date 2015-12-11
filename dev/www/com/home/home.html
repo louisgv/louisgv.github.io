@@ -18,7 +18,7 @@
         </strong>
       </ion-item>
 
-      <div class="row">
+      <ion-item class="row">
         <ion-item class="item-dark tstrong col col-33">
           CODENAME
         </ion-item>
@@ -27,7 +27,7 @@
         <ion-item class="col">
           {{chosen.proj}}
         </ion-item>
-      </div>
+      </ion-item>
 
       <ion-item class="col tstrong item-dark item-divider">
         DESCRIPTION
@@ -70,12 +70,32 @@
       <ion-item class="col tstrong item-dark item-divider">
         Members
       </ion-item>
+
       <div class="row">
-        <ion-item class="col col-33 memb" ng-repeat="mem in chosen.memb">
+        <ion-item class="col memb tcenter"
+        ng-repeat="mem in chosen.memb"
+        ng-if="$index>=0 && $index<3">
           {{mem}}
         </ion-item>
       </div>
 
+      <div class="row">
+        <ion-item class="col memb tcenter"
+        ng-repeat="mem in chosen.memb"
+        ng-if="$index>=3 && $index<6">
+          {{mem}}
+        </ion-item>
+      </div>
+
+      <div class="row">
+        <ion-item class="col memb tcenter"
+        ng-repeat="mem in chosen.memb"
+        ng-if="$index>=3 && $index<9">
+          {{mem}}
+        </ion-item>
+      </div>
+
+      <!-- 0 1 2 / 2 == 0 -->
       <a ng-if="chosen.link" ng-href="{{chosen.link}}" target="_blank">
         <ion-item class="item-assertive tcenter">
           <i class="icon ion-chevron-left"></i>

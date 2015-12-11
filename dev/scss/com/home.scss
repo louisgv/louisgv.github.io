@@ -9,7 +9,6 @@
   //   margin-left: auto;
   //   margin-right: auto;
   // }
-
   ion-content {
     background: $dark;
   }
@@ -30,6 +29,7 @@
   .separator {
     width: 44px;
     height: 100%;
+
     img {
       padding: 2.7px;
       height: 44px;
@@ -38,13 +38,27 @@
 
   .button-bar {
     background: $dark;
+    height: 44px;
   }
 
-  .text-pulling, .icon-pulling {
+  .text-pulling,
+  .icon-pulling {
     color: white;
   }
 
-  .memb {
-    border-color: $dark;
+  .memb-group {
+    display: flex;
+    height: 300px;
+    /* Or whatever */
   }
+
+  .memb-item {
+    width: 100px;
+    /* Or whatever */
+    height: 100px;
+    /* Or whatever */
+    margin: auto;
+    /* Magic! */
+  }
+
 }

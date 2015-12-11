@@ -9119,13 +9119,25 @@ a.button {
     height: 44px; }
 
 .home .button-bar {
-  background: #444; }
+  background: #444;
+  height: 44px; }
 
-.home .text-pulling, .home .icon-pulling {
+.home .text-pulling,
+.home .icon-pulling {
   color: white; }
 
-.home .memb {
-  border-color: #444; }
+.home .memb-group {
+  display: flex;
+  height: 300px;
+  /* Or whatever */ }
+
+.home .memb-item {
+  width: 100px;
+  /* Or whatever */
+  height: 100px;
+  /* Or whatever */
+  margin: auto;
+  /* Magic! */ }
 
 .animated.modal.bounceIn.ng-leave {
   -webkit-animation-name: bounceOut;
