@@ -5,13 +5,18 @@
   // margin-bottom: 50px;
   padding-bottom: 0;
 
-  &.row {
-    padding: 0;
-  }
+}
+
+*.row {
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+.tstrong {
+  font-weight: bold;
 }
 
 .tcenter {

@@ -20,9 +20,9 @@ $ionicons-font-path: '../lib/ionic/fonts' !default;
 // Include all of Ionic
 @import
   "www/lib/ionic/scss/ionic",
-  "www/com/menu/menu",
-  "www/com/gjam/gjam",
-  "www/com/hack/hack",
-  "www/com/home/home",
+  "./com/menu",
+  "./com/gjam",
+  "./com/hack",
+  "./com/home",
   "animation",
   "global";

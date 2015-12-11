@@ -46,7 +46,7 @@ function DatabaseService($http) {
     getRandomEvent: function (callback) {
       var i = Math.round(Math.random());
       this.getEvents(DB_URIS[i], function (base) {
-        var j = Math.round(Math.random() * base.length);
+        var j = Math.floor(Math.random() * base.length);
         // console.log(base);
         callback(base[j]);
       });

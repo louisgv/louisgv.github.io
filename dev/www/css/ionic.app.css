@@ -9099,7 +9099,33 @@ a.button {
   background: #444; }
 
 .home ion-content {
-  background: #ef473a; }
+  background: #444; }
+
+.home .icon {
+  font-size: 44px; }
+
+.home .item {
+  border-color: white; }
+
+.home .button {
+  border: none;
+  border-radius: 0 !important; }
+
+.home .separator {
+  width: 44px;
+  height: 100%; }
+  .home .separator img {
+    padding: 2.7px;
+    height: 44px; }
+
+.home .button-bar {
+  background: #444; }
+
+.home .text-pulling, .home .icon-pulling {
+  color: white; }
+
+.home .memb {
+  border-color: #444; }
 
 .animated.modal.bounceIn.ng-leave {
   -webkit-animation-name: bounceOut;
@@ -9238,11 +9264,15 @@ a.button {
   bottom: 0;
   width: 100%;
   padding-bottom: 0; }
-  .bottom-content.row {
-    padding: 0; }
+
+*.row {
+  padding: 0; }
 
 a {
   text-decoration: none; }
+
+.tstrong {
+  font-weight: bold; }
 
 .tcenter {
   text-align: center; }
