@@ -46,19 +46,15 @@
     color: white;
   }
 
-  .memb-group {
+  .item-group {
     display: flex;
-    height: 300px;
-    /* Or whatever */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: white;
   }
 
-  .memb-item {
-    width: 100px;
-    /* Or whatever */
-    height: 100px;
-    /* Or whatever */
+  .item-group-content {
     margin: auto;
-    /* Magic! */
   }
 
 }

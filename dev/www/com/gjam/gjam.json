@@ -4,21 +4,21 @@
     "date": "November 2015",
     "team": "Hack and Chill",
     "proj": "KatKlicker",
-    "desc": "A kitty cliker game",
-    "role": "Programmer",
+    "desc": "A kitty clicker game",
+    "role": ["Programmer"],
     "work": "Implemented basic controller and sound",
     "memb": [
       "Alisa",
       "Kawan"
     ],
-    "link": "highonlife.meteor.com"
+    "link": "http://louisgv.github.io/katklicker"
     }, {
     "name": "PlayFab Jam",
     "date": "October 2015",
     "team": "jabSquared",
     "proj": "highOnLife",
     "desc": "A game focused on drug effect",
-    "role": "Programmer",
+    "role": ["Programmer", "UX Developer"],
     "work": "Implement basic controller and background effect",
     "memb": [
       "Kris",
@@ -34,7 +34,7 @@
     "team": "morgan",
     "proj": "morgan",
     "desc": "A game where you are thrown into a virtual social network where your opinion will be manipulated. Explore the fake internet, choose your path, and ask yourself, 'What am I thinking?'",
-    "role": "Programmer, UX Coder",
+    "role": ["Programmer", "UX Developer"],
     "work": "Developed the UX and UI",
     "memb": [
       "Ross Snider",
@@ -48,7 +48,7 @@
     "team": "Nick n Bill",
     "proj": "Bob",
     "desc": "A choose your adventure game that revolves around the dead loop paradox",
-    "role": "Programmer",
+    "role": ["Programmer"],
     "work": "Story Engine",
     "memb": [
       "Nick Alston"
@@ -60,7 +60,7 @@
     "team": "Fart Plan",
     "proj": "Fartman",
     "desc": "A simple 2D platformer",
-    "role": "Programmer",
+    "role": ["Programmer"],
     "work": "Code and design the game",
     "memb": [
       "Nick Alston"
@@ -71,8 +71,8 @@
     "date": "Aug 2014",
     "team": "Flame Wheel",
     "proj": "Mine Cart",
-    "desc": "An Oculus Rift game where you travel down an exploding mine! Formed a team with two B.A.T veterans, one of which (Chris) broguth his super cool Rift kit!",
-    "role": "Programmer",
+    "desc": "An Oculus Rift game where you travel down an exploding mine! Formed a team with two B.A.T veterans, one of which (Chris) brough his super cool Rift kit!",
+    "role": ["Programmer"],
     "work": "Control interactive functionality, environment elements and music integration",
     "memb": [
       "Evan Witts the musician",
@@ -86,7 +86,7 @@
     "team": "Time Travel!",
     "proj": "TTT - Time Travelling Train",
     "desc": "A cart game where you control a time travelling train, inspired by a horror writing site!",
-    "role": "2D Artist",
+    "role": ["2D Artist"],
     "work": "Environment sprites and background",
     "memb": [
       "Oliver Chang",
@@ -100,7 +100,7 @@
     "team": "Awesome Impact",
     "proj": "Small City",
     "desc": "A Sim Game with Plant vs Zombie Mechanic. Gain money, make buildings.",
-    "role": "Art Assistant",
+    "role": ["Art Assistant"],
     "work": "The game turned out to be pretty cool, but none of the teammates decided to upload it...",
     "memb": [
       "Nick Alston",
@@ -115,7 +115,7 @@
     "team": "Caffee Surfer",
     "proj": "What's Life?",
     "desc": "A Visual Novel where you are trapped with a girl, and lots of question about life haunt ya both.",
-    "role": "Programmer",
+    "role": ["Programmer"],
     "work": "Option Wheel",
     "memb": [
       "Nick Alston",
@@ -128,7 +128,7 @@
     "team": "Foul Play",
     "proj": "Foul Play",
     "desc": "A chicken Shooter Game, with the funniest chicken art ever seen! I arrived late, but lucky enough, Mike from BAT let me join the team and have fun! It was a great team! Everyone pulled out a really cool game that's surprisingly fun to watch!",
-    "role": "Student",
+    "role": ["Network Developer"],
     "work": "Multiplayer Scene",
     "memb": [
       "Mike Nicholson",
@@ -143,7 +143,9 @@
     "team": "Big Ass Team",
     "proj": "Life Line",
     "desc": "A Fun Climbing game Made with a whooping big team! (Left-over devs who were looking for collabrators). Eventually they all grouped up into a small studio!",
-    "role": "Student",
+    "role": [
+      "Student"
+    ],
     "work": "Frustrated and Embarrassed a little because I did not have enough experience at the time. But overall, it was fun and great. The product turn out to be superb, thanks to all of the wonderful teammates!",
     "memb": [
       "Nate Thompson",

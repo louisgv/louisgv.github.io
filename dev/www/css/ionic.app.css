@@ -9126,18 +9126,14 @@ a.button {
 .home .icon-pulling {
   color: white; }
 
-.home .memb-group {
+.home .item-group {
   display: flex;
-  height: 300px;
-  /* Or whatever */ }
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background: white; }
 
-.home .memb-item {
-  width: 100px;
-  /* Or whatever */
-  height: 100px;
-  /* Or whatever */
-  margin: auto;
-  /* Magic! */ }
+.home .item-group-content {
+  margin: auto; }
 
 .animated.modal.bounceIn.ng-leave {
   -webkit-animation-name: bounceOut;
