@@ -13,15 +13,14 @@
   </ion-nav-buttons>
 
   <ion-content
-    class="has-footer">
-
-    <ion-refresher pulling-text="Pull for random event..." pulling-icon="ion-chevron-down" on-refresh="doRefresh()">
-    </ion-refresher>
-
-    <div class="card"
+    class="has-footer" overflow-scroll="true"
     on-swipe-right="toHackAthon()"
-    on-swipe-left="toGameJams()"
-    >
+    on-swipe-left="toGameJams()">
+
+    <!-- <ion-refresher pulling-text="Pull for random event..." pulling-icon="ion-chevron-down" on-refresh="doRefresh()">
+    </ion-refresher> -->
+
+    <div class="card">
         <ion-item class="item-dark item-divider tcenter">
           <strong>
             {{chosen.name}}
