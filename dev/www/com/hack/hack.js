@@ -1,6 +1,6 @@
 'use strict()';
 
-function HackathonController($scope, $ionicLoading, $ionicModal, DatabaseServ) {
+function HackathonController($scope, $ionicLoading, $ionicModal, DatabaseServ, $state, $ionicViewSwitcher) {
   console.log('HackCtrl');
 
   $ionicLoading.show({
@@ -21,6 +21,11 @@ function HackathonController($scope, $ionicLoading, $ionicModal, DatabaseServ) {
       $scope.modal = modal;
     });
 
+  $scope.toHome = function () {
+    $ionicViewSwitcher.nextDirection('forward');
+    $state.go('home');
+  }
+
   $scope.previousEvent = function () {
     if($scope.current > 0) {
       $scope.chosen = $scope.events[--$scope.current];
@@ -32,6 +37,7 @@ function HackathonController($scope, $ionicLoading, $ionicModal, DatabaseServ) {
     $scope.chosen = $scope.events[++$scope.current];
     // $scope.modal.hide();
   }
+
   $scope.showDetail = function (e) {
     $scope.current = e;
     $scope.chosen = $scope.events[e];

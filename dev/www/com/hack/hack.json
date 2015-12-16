@@ -65,7 +65,7 @@
       "role": [
         "Tech Lead"
       ],
-      "work": "Guides teammates with merge task and so on",
+      "work": "Guided teammates with merge task and so on",
       "memb": [
         "Yonas", "Shep", "Ara", "Chris"
       ],
@@ -160,7 +160,7 @@
     }, {
       "name": "Facebook Meat and Greet",
       "date": "August 2015",
-      "team": "ba",
+      "team": "Student Zen",
       "proj": "Student Zen",
       "desc": "A smart profile manager that automatically change your device's behavior based on the context of your environment.",
       "role": [

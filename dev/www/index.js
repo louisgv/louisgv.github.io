@@ -15,9 +15,9 @@ var app = angular
   .controller('GJamCtrl', GameJamController)
   .controller('HackCtrl', HackathonController);
 
-function config($stateProvider, $urlRouterProvider) {
+function config($stateProvider, $urlRouterProvider,$ionicConfigProvider) {
   console.log('config');
-
+  $ionicConfigProvider.views.forwardCache(true);
   // if none of the states below are matched, use this as the fallback
   $urlRouterProvider.otherwise('/');
 

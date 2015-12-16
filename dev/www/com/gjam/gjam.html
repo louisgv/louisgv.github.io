@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <ion-view view-title="{{count}}
  Jams" class="gjam">
+ <ion-nav-buttons side="left">
+   <a nav-direction="back" href="#/">
+     <button class="button button-clear icon-left ion-chevron-left">
+       Back
+     </button>
+   </a>
+ </ion-nav-buttons>
   <ion-content class="padding">
-    <ion-list>
-      <ion-item collection-repeat="e in events" ng-click="showDetail($index)" class="item-icon-right item-positive">
+    <ion-list class="card" on-swipe-right="toHome()">
+      <ion-item ng-repeat="e in events" ng-click="showDetail($index)" class="item-icon-right item-energized">
         {{e.name}}
         <i class="icon ion-ios-paw"></i>
       </ion-item>

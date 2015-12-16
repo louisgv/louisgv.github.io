@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <ion-view view-title="{{count}}
  Hacks" class="hack">
+  <ion-nav-buttons side="right">
+    <a nav-direction="forward" href="#/">
+      <button class="button button-clear icon-right ion-chevron-right">
+        Back
+      </button>
+    </a>
+  </ion-nav-buttons>
   <ion-content class="padding">
-    <ion-list>
-      <ion-item collection-repeat="e in events" ng-click="showDetail($index)"
-      class="item-assertive item-icon-right">
-        {{e.name}}
-        <i class="icon ion-ios-paw"></i>
-      </ion-item>
-    </ion-list>
+      <ion-list
+        class="card"
+        on-swipe-left="toHome()">
+        <ion-item ng-repeat="e in events" ng-click="showDetail($index)" class="item-assertive item-icon-right">
+          {{e.name}}
+          <i class="icon ion-ios-paw"></i>
+        </ion-item>
+      </ion-list>
+
   </ion-content>
 </ion-view>
