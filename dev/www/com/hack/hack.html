@@ -10,15 +10,19 @@
     </a>
   </ion-nav-buttons>
 
-  <ion-content class="padding">
-      <ion-list
-        class="card"
-        on-swipe-left="toHome()">
-        <ion-item ng-repeat="e in events" ng-click="showDetail($index)" class="item-assertive item-icon-right">
-          {{e.name}}
-          <i class="icon ion-ios-paw"></i>
-        </ion-item>
-      </ion-list>
+  <ion-content on-swipe-left="toHome()">
+
+    <div class="card">
+    <!-- <ion-list class="card"> -->
+      <ion-item ng-repeat="e in events" ng-click="showDetail($index)" class="item-assertive item-icon-right">
+        {{e.name}}
+        <i class="icon ion-ios-paw"></i>
+        <!-- <ion-reorder-button class="icon ion-ios-paw" on-reorder="reorderEvents(e, $fromIndex, $toIndex)">
+        </ion-reorder-button> -->
+      </ion-item>
+
+    <!-- </ion-list> -->
+    </div>
 
   </ion-content>
 </ion-view>

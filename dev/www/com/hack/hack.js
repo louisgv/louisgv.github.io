@@ -12,6 +12,11 @@ function HackathonController($scope, $ionicLoading, $ionicModal, DatabaseServ, $
   $scope.chosen = {};
   $scope.current = 0;
 
+  $scope.reorderEvents = function(e, fromIndex, toIndex) {
+      $scope.events.splice(fromIndex, 1);
+      $scope.evemts.splice(toIndex, 0, e);
+    };
+
   $ionicModal.fromTemplateUrl('mod/detail.html', {
       scope: $scope,
       animation: 'animated slideInRight',
