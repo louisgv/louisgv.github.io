@@ -39,11 +39,11 @@ function HomeCtrl($scope, $ionicLoading, DatabaseServ, $state, $ionicViewSwitche
     $ionicViewSwitcher.nextDirection('back');
     $state.go('hack');
   }
+
   $scope.toGameJams = function () {
     $ionicViewSwitcher.nextDirection('forward');
     $state.go('gjam');
   }
-
 
   $scope.doRefresh = function () {
     DatabaseServ.getRandomEvent(function (data) {
