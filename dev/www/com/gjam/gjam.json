@@ -1,5 +1,22 @@
 {
   "base": [{
+    "name": "LudumDare34",
+    "date": "December 2015",
+    "team": "Flower Power",
+    "proj": "Angry people hates flower",
+    "desc": "Asymmetric VR game: One Vive player vs 2 Xbox controller players. A Gardener wants the world to be filled with flower while the Angry LumberJacks want to rid the world of flower.",
+    "role": [
+      "Programmer"
+    ],
+    "work": "LumberJacks Controller and Events, Game Manager, Events and End-game condition",
+    "memb": [
+      "Evie",
+      "Yonas",
+      "Ket",
+      "Ritchie"
+    ],
+    "link": "http://github.com/louisgv/LDJAM34SEA"
+    },{
     "name": "ChillJam",
     "date": "November 2015",
     "team": "Hack and Chill",
