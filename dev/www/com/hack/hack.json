@@ -13,13 +13,13 @@
       "memb": [
         "Bryan", "Bogdan", "Chika", "Yonas", "Robert"
       ],
-      "link": ""
+      "link": "https://jabsquared.github.io/quan"
     }, {
       "name": "Facebook Women Hackathon",
       "date": "November 2015",
       "team": "SnowBallZ",
       "proj": "SnowBallZ",
-      "desc": "Charge some snow balls and defeat some giant snowmens, in VR!",
+      "desc": "Charge some snow balls and defeat some giant snowmens, in Virtual Reality!",
       "role": [
         "AI Developer"
       ],
@@ -69,7 +69,7 @@
       "memb": [
         "Yonas", "Shep", "Ara", "Chris"
       ],
-      "link": ""
+      "link": "https://yonasberhe.github.io/taco.tech"
     }, {
       "name": "Kandy.io Hack",
       "date": "October 2015",
@@ -83,7 +83,7 @@
       "memb": [
         "Andy", "Alan"
       ],
-      "link": ""
+      "link": "http://alyeung.github.io/DoctorKandy/"
     }, {
       "name": "DubHack 2015",
       "date": "October 2015",
@@ -118,7 +118,7 @@
       "date": "Sep 2015",
       "team": "jabSquared",
       "proj": "Do you want to help Kenmore?",
-      "desc": "A platform that allow the city to outsource community project easier so that citizens can form group and contribute. Project are assgined randomly.",
+      "desc": "A platform that allow the city to outsource community project easier so that citizens can form group and contribute. Project are assigned randomly.",
       "role": [
         "Designer",
         "Developer",

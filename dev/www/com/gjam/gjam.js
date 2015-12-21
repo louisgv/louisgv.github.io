@@ -37,6 +37,7 @@ function GameJamController($scope, $ionicLoading, DatabaseServ, $ionicModal, $st
     $scope.chosen = $scope.events[++$scope.current];
     // $scope.modal.hide();
   }
+
   $scope.showDetail = function (e) {
     $scope.current = e;
     $scope.chosen = $scope.events[e];
@@ -57,11 +58,8 @@ function GameJamController($scope, $ionicLoading, DatabaseServ, $ionicModal, $st
 
   });
 
-
   $scope.toHome = function () {
     $ionicViewSwitcher.nextDirection('back');
     $state.go('home');
   }
-
-
 };
