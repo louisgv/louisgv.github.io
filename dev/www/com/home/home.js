@@ -14,7 +14,6 @@ function HomeCtrl($scope, $ionicLoading, DatabaseServ, $state, $ionicViewSwitche
     $scope.greeting = "    Good morning! I am";
   }
 
-  $scope.count = 0;
   $scope.chosen = {};
 
   if(!$scope.chosen) {
@@ -24,10 +23,11 @@ function HomeCtrl($scope, $ionicLoading, DatabaseServ, $state, $ionicViewSwitche
     });
   }
   $scope.$on('$ionicView.enter', function (e) {
-    DatabaseServ.getEventCount(function (hackCount, gjamCount) {
-      $scope.count = hackCount + gjamCount;
-      $scope.hackCount = hackCount;
-      $scope.gjamCount = gjamCount;
+    DatabaseServ.getHacks(function (hack) {
+      $scope.hackCount = hack.length;
+    });
+    DatabaseServ.getJams(function (jams) {
+      $scope.gjamCount = jams.length;
     });
     DatabaseServ.getRandomEvent(function (data) {
       $scope.chosen = data;

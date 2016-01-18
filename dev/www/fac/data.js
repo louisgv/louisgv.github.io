@@ -31,18 +31,6 @@ function DatabaseService($http) {
         callback(hacks);
       });
     },
-    getEventCount: function (callback) {
-      var hackCount = 0;
-      var gjamCount = 0;
-      this.getHacks(function (hacks) {
-        hackCount = hacks.length;
-      });
-      this.getJams(function (gjams) {
-        // callback(count);
-        gjamCount = gjams.length;
-        callback(hackCount, gjamCount);
-      });
-    },
     getRandomEvent: function (callback) {
       var i = Math.round(Math.random());
       this.getEvents(DB_URIS[i], function (base) {
