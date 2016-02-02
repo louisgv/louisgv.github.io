@@ -1,20 +1,5 @@
 {
   "base": [{
-    "name": "Expedia 2016",
-    "date": "January 2016",
-    "team": "MoonWalk?",
-    "proj": "MoonWalk?",
-    "desc": "Micro-tourism for walker",
-    "role": [
-      "Programmer",
-    ],
-    "work": "Expedia API Integration",
-    "memb": [
-      "Alex Sage",
-      "John Reasor"
-    ],
-    "link": "http://devpost.com/software/moon-walk"
-    },{
     "name": "QuackHack 2016",
     "date": "January 2016",
     "team": "TopDownBase",
@@ -34,7 +19,7 @@
       "Tagg Wood"
     ],
     "link": "http://devpost.com/software/quackhack2016"
-    },{
+    }, {
     "name": "LudumDare34",
     "date": "December 2015",
     "team": "Flower Power",
@@ -51,7 +36,7 @@
       "Ritchie"
     ],
     "link": "http://github.com/louisgv/LDJAM34SEA"
-    },{
+    }, {
     "name": "ChillJam",
     "date": "November 2015",
     "team": "Hack and Chill",

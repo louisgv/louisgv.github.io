@@ -15,8 +15,8 @@
     on-swipe-right="toHome()">
 
       <div class="card">
-        <ion-item ng-repeat="e in events" ng-click="showDetail($index)" class="item-icon-right item-assertive">
-          {{e.name}}
+        <ion-item ng-repeat="e in events track by $index" ng-click="showDetail($index)" class="item-icon-right item-assertive">
+          {{::e.name}}
           <i class="icon ion-ios-paw"></i>
         </ion-item>
       </div>
