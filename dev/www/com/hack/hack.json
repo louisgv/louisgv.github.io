@@ -1,5 +1,24 @@
 {
   "base": [{
+      "name": "IBM Watson Challenge",
+      "date": "February 2016",
+      "team": "Edia",
+      "proj": "Edia",
+      "desc": "Startup Idea Analyzer",
+      "role": [
+      "Programmer",
+      "Front End",
+      "Back End",
+      "Data visualization"
+    ],
+      "work": "Using Watson's API to analyze a startup idea by taking all of its keyword and run it through Watson's Concept API for a body of text, and analyze it with Watson's Personality to get a possible prediction of future founder's Personality.",
+      "memb": [
+      "Renal Razumov",
+      "Bogdan Pshonyak",
+      "Alexander Sage"
+    ],
+      "link": "http://devpost.com/software/id34"
+  },{
       "name": "Hack@Brown 2016",
       "date": "February 2016",
       "team": "Funky Flick",
