@@ -1,5 +1,22 @@
 {
   "base": [{
+      "name": "MHack: Refactor",
+      "date": "February 2016",
+      "team": "House of Carbs",
+      "proj": "House of Carbs",
+      "desc": "Gamified Cooking Tutorial Application",
+      "role": [
+      "Programmer",
+      "Front End"
+    ],
+      "work": "Built a web application, using Ionic for front-end framework, Firebase for user authentication and to track user experience points, and the Target API to redirect users to a location where they can purchase required ingredients.",
+      "memb": [
+      "Alyssa Barker",
+      "Devin Held",
+      "Lauren Gaber"
+    ],
+      "link": "http://devpost.com/software/house-of-carbs"
+  },{
       "name": "IBM Watson Challenge",
       "date": "February 2016",
       "team": "Edia",
