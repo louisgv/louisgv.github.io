@@ -51,6 +51,7 @@ h1, p:hover, .glowing:hover {
 }
 
 .contact {
+  opacity: 0.5;
   z-index: 9;
   text-align: center;
   max-width: 45px;
@@ -85,6 +86,10 @@ h1, p:hover, .glowing:hover {
   -moz-transition-duration: .45s;
   -webkit-transition-duration: .45s;
   -o-transition-duration: .45s;
+}
+
+.contact:hover {
+  opacity: 1;
 }
 
 @media all and (min-width: 960px) {
