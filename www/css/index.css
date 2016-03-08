@@ -37,7 +37,6 @@ h1, p:hover, .glowing:hover {
   width: 100vw;
   position: fixed;
   top: 0;
-  ;
   left: 0;
 }
 
@@ -47,7 +46,12 @@ h1, p:hover, .glowing:hover {
 }
 
 .greeting {
+  /*font-size: 9vw !important;*/
   margin-left: 0.9em;
+}
+
+#banner {
+  /*font-size: 2.7 !important;*/
 }
 
 .contact {
@@ -151,11 +155,11 @@ h1, p:hover, .glowing:hover {
 }
 
 .thank {
-  height: 90px;
+  height: 9vh;
   text-align: center;
   margin: auto;
   background-color: #ADFF2F;
-  padding-top: 45px;
+  padding-top: 2vh;
 }
 
 #copyright {
