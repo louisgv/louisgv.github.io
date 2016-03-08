@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: #000;
+}
+
+body {
+  /*background: #053d4e;*/
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*background: linear-gradient( to bottom right, rgba(6, 0, 255, 0.3), rgba(255, 0, 0, 0.3));*/
+  background: #5A3F37;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #5A3F37, #2C7744);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #5A3F37, #2C7744);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.popup {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  /*background: #053d4e;
+  overflow: hidden;
+  background: linear-gradient( to bottom right, rgba(6, 0, 255, 0.3), rgba(255, 0, 0, 0.3));*/
+}
+
+.pop-container {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.right {
+  float: left;
+  color: #FFF;
+  width: 50%;
+  text-align: right;
+}
+
+.left {
+  float: left;
+  color: #7a7a7a;
+  width: 50%;
+  text-align: right;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  margin-top: 40px;
+}
+
+h1, h4 {
+  -webkit-transition: opacity .25s;
+  -moz-transition: opacity .25s;
+  -o-transition: opacity .25s;
+  -ms-transition: opacity .25s;
+  transition: opacity .25s;
+  font-family: "FARCRY", Verdana, Tahoma;
+}
+
+h1 {
+  font-size: 6vw;
+}
+
+h4 {
+  font-size: 3vw;
+}
+
+h4:first-child {
+  margin-bottom: -2vw;
+}
+
+h4:last-child {
+  margin-top: -1.7vw;
+}

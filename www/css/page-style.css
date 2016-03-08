@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro);
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
+
 /* Partials */
 /* Theme Vars */
 /* Compass Vars */
@@ -38,6 +39,7 @@ a {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 /* line 37, ../_sass/_base.scss */
 a:hover {
   color: #d4edf9;
