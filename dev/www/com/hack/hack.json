@@ -1,5 +1,19 @@
 {
   "base": [{
+      "name": "Yelp Online Hackathon",
+      "date": "February 2016",
+      "team": "Desserts Time",
+      "proj": "Desserts Time",
+      "desc": "UI centric app focus on Desserts?",
+      "role": [
+        "Programmer"
+      ],
+      "work": "Backend and Front-end integration",
+      "memb": [
+        "LAB"
+    ],
+      "link": "https://louisgv.github.io/eo"
+  },{
       "name": "AT&T Park and Recreation",
       "date": "February 2016",
       "team": "Sunshine",
