@@ -1,5 +1,19 @@
 {
   "base": [{
+    "name": "Hack The Dot #4",
+    "date": "March 2016",
+    "team": "tree.review",
+    "proj": "tree.review",
+    "desc": "Review Marijuana dispender in VR as well as on a mobile app",
+    "role": [
+      "Mobile developer"
+    ],
+    "work": "Fork up a mobile front-end with Yelp API",
+    "memb": [
+      "Lee", "Stuart", "T - new guy", "Here Map Guy", "Another guy friend of Lee"
+    ],
+    "link": "https://yonasberhe.github.io/honey-badgers"
+  },{
       "name": "Yelp Online Hackathon",
       "date": "February 2016",
       "team": "Desserts Time",
