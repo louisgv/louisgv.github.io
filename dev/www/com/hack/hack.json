@@ -1,5 +1,47 @@
 {
   "base": [{
+    "name": "Angel Hack 2016",
+    "date": "April 2016",
+    "team": "Streamline",
+    "proj": "Streamline",
+    "desc": "A private quantified self API for everyone",
+    "role": [
+      "Programmer"
+    ],
+    "work": "Front-end with React",
+    "memb": [
+      "Paul", "Alan"
+    ],
+    "link": ""
+  },{
+    "name": "Watson Hackathon",
+    "date": "March 2016",
+    "team": "Verdandi",
+    "proj": "Verdandi",
+    "desc": "HR AI, with ability to read CV and process it into an api.",
+    "role": [
+      "Programmer"
+    ],
+    "work": "Watson API",
+    "memb": [
+      "DC", "Devin", "Bogdan", "Renat"
+    ],
+    "link": "https://devpost.com/software/verdandi"
+  },{
+      "name": "Yelp Online Hackathon",
+      "date": "March 2016",
+      "team": "Desserts Time",
+      "proj": "Desserts Time",
+      "desc": "UI centric app focus on Desserts?",
+      "role": [
+        "Programmer"
+      ],
+      "work": "Backend and Front-end integration",
+      "memb": [
+        "LAB"
+    ],
+      "link": "https://louisgv.github.io/eo"
+  },{
     "name": "Hack The Dot #4",
     "date": "March 2016",
     "team": "tree.review",
@@ -12,7 +54,7 @@
     "memb": [
       "Lee", "Stuart", "T - new guy", "Here Map Guy", "Another guy friend of Lee"
     ],
-    "link": "https://yonasberhe.github.io/honey-badgers"
+    "link": "https://louisgv.github.io/honey-badgers"
   },{
       "name": "Yelp Online Hackathon",
       "date": "February 2016",
