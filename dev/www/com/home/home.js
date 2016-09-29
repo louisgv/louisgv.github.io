@@ -15,8 +15,9 @@ function HomeCtrl($scope, $ionicLoading, DatabaseServ, $state, $ionicViewSwitche
   }
 
   $ionicPopup.alert({
-    title: 'Hello, this is Louis\' Portfolio!',
-    template: 'This is where he showcases his hackathon journey. Click on the shuffle to see a random hackathon project. Or click on either the Hackathon button or the GameJam button below to see the fullist. Or better yet, just Swipe left or right!'
+    title: 'Hello, this is Louis\' Hackathon Portfolio!',
+    template: 'This is where he showcases his hackathon journey. Click on the shuffle to see a random hackathon project. Or click on either the Hackathon button or the GameJam button below to see the fullist. Or better yet, just Swipe left or right!',
+    okType: "button-assertive"
   });
 
   $scope.chosen = {};

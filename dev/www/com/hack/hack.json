@@ -30,21 +30,6 @@
     ],
     "link": ""
   },{
-    "name": "DeepLearning",
-    "date": "August 2016",
-    "team": "DeepHealing",
-    "proj": "DeepHealing",
-    "desc": "A choose your adventure text game, testing around with Twinery2",
-    "role": [
-      "Tool Engineer"
-    ],
-    "work": "Tweaked around with the Twinery engine so one can both edit the story and the flow.",
-    "memb": [
-      "Louis",
-      "DCSan"
-    ],
-    "link": "https://www.gamejolt.com/games/deephealing/174592"
-  },{
     "name": "VB Botathon",
     "date": "July 2016",
     "team": "GuessWord",
