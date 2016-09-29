@@ -1,6 +1,6 @@
 'use strict()';
 
-function HomeCtrl($scope, $ionicLoading, DatabaseServ, $state, $ionicViewSwitcher) {
+function HomeCtrl($scope, $ionicLoading, DatabaseServ, $state, $ionicViewSwitcher, $ionicPopup) {
   console.log('HomeCtrl');
 
   var time = new Date();
@@ -13,6 +13,11 @@ function HomeCtrl($scope, $ionicLoading, DatabaseServ, $state, $ionicViewSwitche
   } else {
     $scope.greeting = "    Good morning! I am";
   }
+
+  $ionicPopup.alert({
+    title: 'Hello, this is Louis\' Portfolio!',
+    template: 'This is where he showcases his hackathon journey. Click on the shuffle to see a random hackathon project. Or click on either the Hackathon button or the GameJam button below to see the fullist. Or better yet, just Swipe left or right!'
+  });
 
   $scope.chosen = {};
 
