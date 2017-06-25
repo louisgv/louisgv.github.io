@@ -1,6 +1,23 @@
 {
   "base": [
     {
+    "name": "San Diego AI Hackathon",
+    "date": "June 2017",
+    "team": "Samuraizer",
+    "proj": "Samuraizer",
+    "desc": "What would you say if I told you there is a app on the market that can samuraize your email. It is very good and here it is.",
+    "role": [
+      "Front End"
+    ],
+    "work": "Front-end with ReactJS",
+    "memb": [
+      "L",
+      "Aishwary",
+      "Yihao",
+      "Anurag"
+    ],
+    "link": ""
+  },{
     "name": "Status.im Hackathon",
     "date": "June 2017",
     "team": "Blueberry",
@@ -35,6 +52,21 @@
       "Jon"
     ],
     "link": ""
+  },{
+    "name": "Imagine RIT Hack",
+    "date": "November 2016",
+    "team": "BlindSight",
+    "proj": "BlindSight",
+    "desc": "A digital blind stick",
+    "role": [
+      "Android Developer"
+    ],
+    "work": "Camera API and Integration with OpenCV",
+    "memb": [
+      "L",
+      "Nick Wilkin"
+    ],
+    "link": "https://github.com/louisgv/BlindSight"
   },{
     "name": "BigRedHack",
     "date": "September 2016",
