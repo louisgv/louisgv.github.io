@@ -1,6 +1,41 @@
 {
   "base": [
     {
+    "name": "Status.im Hackathon",
+    "date": "June 2017",
+    "team": "Blueberry",
+    "proj": "DSCL",
+    "desc": "A decentralized P2P messaging platform",
+    "role": [
+      "Front End"
+    ],
+    "work": "Front-end with Parity Bond",
+    "memb": [
+      "L",
+      "Joe Netti",
+      "Saurav Tomar"
+    ],
+    "link": ""
+  },{
+    "name": "Dream Hackathon (Intuit Internal)",
+    "date": "May 2017",
+    "team": "ka-wai",
+    "proj": "TurboPulse",
+    "desc": "Financial health indicator",
+    "role": [
+      "Front End"
+    ],
+    "work": "Front-end with ReactJS",
+    "memb": [
+      "L",
+      "Chinmay",
+      "Tom",
+      "Shreyes",
+      "Kathlene",
+      "Jon"
+    ],
+    "link": ""
+  },{
     "name": "BigRedHack",
     "date": "September 2016",
     "team": "CodeRIT09",
