@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://louisgv.me/">
-    <img alt="cryptocard" src="https://github.com/louisgv/louisgv.github.io/blob/master/icon.png" width="234">
+    <img alt="portfolio" src="https://github.com/louisgv/louisgv.github.io/blob/dev/icon.png" width="234">
   </a>
 </p>
 
