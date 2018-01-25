@@ -9,19 +9,37 @@
 </h1>
 
 <h2 align="center">
-    Dynamic ReactJS Portfolio Builder
+    Dynamic Online Resume Builder
 </h2>
 
 # Goal
 
-Cryptocard aims to become the platform for decentralized card game. The cards are tokens hosted on top of a decentralized network (at the moment, Ethereum is used). The platforms exposes decentralized APIs for developer around the world to create card game based on this token specification.
+Portfolio is an open source dynamic Resume builder created using:
+
+```
+    {
+		url: 'https://reactjs.org/',
+		name: 'React.js'
+	},
+	{
+		url: 'https://react.semantic-ui.com/',
+		name: 'Semantic-ui'
+	},
+	{
+		url: 'https://github.com/negomi/react-burger-menu/',
+		name: 'react-burger-menu'
+	},
+	{
+		url: 'https://github.com/oliviertassinari/react-swipeable-views',
+		name: 'react-swipeable-views'
+	}
+```
 
 # Setup
 
 The following prerequiste must be met:
 - yarn@latest
 - node@9
-- lerna@latest
 
 ```
 yarn
