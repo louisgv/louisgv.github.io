@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://louisgv.github.io/",
+  "homepage": "http://louisgv.me/",
   "dependencies": {
     "react": "^16.1.1",
     "react-burger-menu": "^2.1.11",
