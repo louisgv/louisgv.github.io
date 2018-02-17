@@ -6,10 +6,10 @@ export const SECTIONS = [
 export const BASIC = {
 	name: "Louis Vichy",
 	tagline: "#hacker",
-	taglineUrl: "http://catb.org/jargon/html/H/hacker.html",
+	taglineUrl: "https://en.wikipedia.org/wiki/Hacker_culture",
 	email: "lgvichy@gmail.com",
 	logo: "id/icon-white.png",
-	url: "https://github.com/louisgv/"
+	url: "https://louisgv.me/"
 };
 
 export const PHOTO = {
