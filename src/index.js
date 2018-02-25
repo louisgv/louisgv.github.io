@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import registerServiceWorker from 'registerServiceWorker';
+// import registerServiceWorker from 'registerServiceWorker';
 
 import TransitionGroup from 'react-transition-group/TransitionGroup';
 
@@ -42,7 +42,7 @@ const rootEl = document.getElementById('root');
 
 if (rootEl) {
 	ReactDOM.render(<App />, rootEl);
-	registerServiceWorker();
+	// registerServiceWorker();
 }
 
 export default App;

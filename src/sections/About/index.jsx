@@ -19,6 +19,7 @@ import {
 } from 'utils/Layout';
 
 import {
+	BASIC as basic,
 	CONTACT as contact,
 	PHOTO as photo,
 	INTERESTS as interests
@@ -71,7 +72,7 @@ export default class About extends PureComponent {
 
 						<Segment inverted>
 							<p>
-								I automate my job as soon and as much as possible.
+								{basic.about}
 							</p>
 						</Segment>
 						{/* <Header inverted>
@@ -97,16 +98,16 @@ export default class About extends PureComponent {
 
 						<List animated>
 							<List.Item>
-								<Label as='a' fluid color='blue' labelPosition='left' size={'huge'}
-									target='_blank' icon='map'
+								<Label as='a' fluid color={contact.location.color} labelPosition='left' size={'huge'}
+									target='_blank' icon={contact.location.icon}
 									href={contact.location.url}
 									content={contact.location.name}/>
 							</List.Item>
 
 							<List.Item>
-								<Label as='a' fluid color='teal' labelPosition='left' size={'huge'} icon='envelope'
-									href={`mailto:${contact.email}`}
-									content={contact.email} />
+								<Label as='a' fluid color={contact.email.color} labelPosition='left' size={'huge'} icon={contact.email.icon}
+									href={`mailto:${contact.email.value}`}
+									content={contact.email.value} />
 							</List.Item>
 						</List>
 
