@@ -41,7 +41,7 @@ export const CONTACT = {
     email: {
 		icon: 'envelope',
 		color: COLORS[6],
-		value: 'hi@louisgv.me'
+		value: 'lgvichy@gmail.com'
 	},
     location: {
 		icon: 'globe',
