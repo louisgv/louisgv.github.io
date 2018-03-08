@@ -2,6 +2,24 @@
 <html lang="en">
 
     <head>
+        <!-- Google Tag Manager -->
+        <script>
+            (function (l, o, u, i, s) {
+                l[l] = l[l] || [];
+                l[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = o.getElementsByTagName(u)[0],
+                    j = o.createElement(u),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-57ZMDTL');
+        </script>
+        <!-- End Google Tag Manager -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="theme-color" content="#000000">
@@ -23,12 +41,48 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
         <title>LAB Portfolio</title>
+        <noscript>
+            <style media="screen">
+                #ns-container {
+                    background: black;
+                    color: white;
+                    width: 100vw;
+                    height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.8rem;
+                    text-align: center;
+                }
+
+                #ns-container h1 {
+                    font-size: 4.5em;
+                }
+            </style>
+        </noscript>
     </head>
 
     <body>
+        <!-- Google Tag Manager (noscript) -->
         <noscript>
-            You need to enable JavaScript to run this app.
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57ZMDTL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
         </noscript>
+
+        <!-- End Google Tag Manager (noscript) -->
+        <noscript>
+            <div id="ns-container">
+                <a href="https://en.wikipedia.org/wiki/JavaScript" class="rainbow mobile">
+                    <h1>JavaScript</h1>
+                </a>
+                <br/>
+                <p>
+                    is required to see the portfolio.
+                    <br/>Please enable it :)
+                </p>
+            </div>
+        </noscript>
+
         <div id="root"></div>
         <!--
       This HTML file is a template.
@@ -53,6 +107,11 @@
             gtag('config', 'UA-63900039-1');
         </script>
 
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57ZMDTL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
     </body>
 
 </html>
