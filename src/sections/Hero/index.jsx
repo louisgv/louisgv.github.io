@@ -53,7 +53,7 @@ export default class Hero extends PureComponent {
 					{ socials.map(SocialMedia) }
 				 </Grid>
 
-				 <Grid stretched padded doubling columns={workSamples.length}>
+				 <Grid stretched padded centered columns={workSamples.length}>
 					{ workSamples.map(WorkSample) }
 				 </Grid>
 
