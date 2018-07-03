@@ -10,6 +10,7 @@ import {
 } from 'semantic-ui-react';
 
 import SocialMedia from 'components/SocialMedia';
+import WorkSample from 'components/WorkSample';
 
 import {
 	DesktopHackerBanner,
@@ -20,7 +21,8 @@ import {FlexColumnCenterDiv} from 'utils/Layout';
 
 import {
 	BASIC as basic,
-	SOCIALS as socials
+	SOCIALS as socials,
+	WORK_SAMPLES as workSamples
 } from 'resume';
 
 const StyledContainer = styled(FlexColumnCenterDiv)`
@@ -49,6 +51,10 @@ export default class Hero extends PureComponent {
 
 				 <Grid stretched padded doubling columns={socials.length}>
 					{ socials.map(SocialMedia) }
+				 </Grid>
+
+				 <Grid stretched padded doubling columns={workSamples.length}>
+					{ workSamples.map(WorkSample) }
 				 </Grid>
 
 			</StyledContainer>

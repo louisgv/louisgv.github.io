@@ -132,6 +132,22 @@ export const SOCIALS = [
     }
 ]
 
+export const WORK_SAMPLES = [
+    {
+        "name": "Hyperproxy",
+        "color": COLORS[0],
+        "url": "https://hyperproxy.network"
+    }, {
+        "name": "Vize",
+        "color": COLORS[1],
+        "url": "https://louisgv.me/vize/"
+    }, {
+        "name": "Pattar",
+        "color": COLORS[2],
+        "url": "https://louisgv.me/pattar/"
+    }
+]
+
 export const PORTFOLIOS = [
     {
         "name": "SmartLook Web",

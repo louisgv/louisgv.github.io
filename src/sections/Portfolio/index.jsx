@@ -41,7 +41,7 @@ background: #F9F9F9;
 `
 
 export default class Portfolio extends Component {
-	state={ playing: true}
+	state={ playing: false}
 
 	toggleAutoPlay = () => {
 		const {playing} = this.state;
@@ -68,7 +68,7 @@ export default class Portfolio extends Component {
 					size={'huge'}
 					color={playing ? 'red' : 'orange'}
 					icon={playing? 'stop' : 'play'}
-					content={playing? 'Stop Slideshow' : 'Resume Slideshow'}
+					content={playing? 'Stop Slideshow' : 'Start Slideshow'}
 					onClick={this.toggleAutoPlay}/>
 					<AutoPlaySwipeableViews autoplay={playing}
 						animateHeight={false}
