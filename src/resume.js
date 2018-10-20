@@ -134,9 +134,9 @@ export const SOCIALS = [
 
 export const WORK_SAMPLES = [
     {
-        "name": "Hyperproxy",
+        "name": "L'eau",
         "color": COLORS[0],
-        "url": "https://hyperproxy.network"
+        "url": "https://louisgv.me/poker/"
     }, {
         "name": "Vize",
         "color": COLORS[1],
