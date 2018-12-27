@@ -27,7 +27,7 @@ export const BASIC = {
     about: "I teach bots to steal jobs and make games for the retired.",
     email: "lgvichy@gmail.com",
     logo: "id/icon-white.png",
-    url: "https://louisgv.me/"
+    url: "https://louisgv.ga/"
 };
 
 export const PHOTO = {
@@ -136,15 +136,15 @@ export const WORK_SAMPLES = [
     {
         "name": "L'eau",
         "color": COLORS[0],
-        "url": "https://louisgv.me/poker/"
+        "url": "https://louisgv.ga/poker/"
     }, {
         "name": "Vize",
         "color": COLORS[1],
-        "url": "https://louisgv.me/vize/"
+        "url": "https://louisgv.ga/vize/"
     }, {
         "name": "Pattar",
         "color": COLORS[2],
-        "url": "https://louisgv.me/pattar/"
+        "url": "https://louisgv.ga/pattar/"
     }
 ]
 
