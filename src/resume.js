@@ -134,13 +134,13 @@ export const SOCIALS = [
 
 export const WORK_SAMPLES = [
     {
-        "name": "L'eau",
+        "name": "HyperProxy",
         "color": COLORS[0],
-        "url": "https://louisgv.ga/poker/"
+        "url": "https://goonism.github.io/hyperproxy/"
     }, {
-        "name": "Vize",
+        "name": "Janus",
         "color": COLORS[1],
-        "url": "https://louisgv.ga/vize/"
+        "url": "https://janus-game.com"
     }, {
         "name": "Pattar",
         "color": COLORS[2],
