@@ -86,11 +86,12 @@ export default class Navigation extends React.Component {
 
     return (
       <StyledHeader id={this.props.id}>
-        <Visibility>
+        {/* <Visibility>
           <FixedMenu>{MenuItems}</FixedMenu>
           <MobileMenu isOpen={open}>{MenuItems}</MobileMenu>
-        </Visibility>
-        <Hero />
+        </Visibility> */}
+    
+		    <Hero />
 
         {/* <Menu.Item
           as={BottomLink}

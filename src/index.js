@@ -20,7 +20,7 @@ const {location} = window;
 
 const basenameMap = {
 	'': '/',
-	'louisgv.me': '/',
+	'louisgv.ga': '/',
 	'people.rit.edu' : location.pathname.slice(0,-1),
 	'louisgv.github.io' : '/portfolio'
 }

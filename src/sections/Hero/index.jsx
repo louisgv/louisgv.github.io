@@ -47,7 +47,7 @@ export default class Hero extends PureComponent {
 				<DesktopHackerBanner/>
 				<MobileHackerBanner/>
 
-				<Divider horizontal inverted section/>
+				{/* <Divider horizontal inverted section/> */}
 
 				 <Grid stretched padded doubling columns={socials.length}>
 					{ socials.map(SocialMedia) }

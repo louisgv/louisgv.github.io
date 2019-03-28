@@ -1,7 +1,5 @@
 import React from "react"
 
-import styled from "styled-components";
-
 import {
 	stack as BurgerMenu
 } from 'react-burger-menu'
