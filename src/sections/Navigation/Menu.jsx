@@ -14,26 +14,11 @@ import {
 export const FixedMenu = ({children}) => (
 	<Responsive as={Menu}
 				fixed='top'
-				size='large'
-				style={{background:'black'}}
+				size='massive'
 				inverted pointing secondary
-				widths={children.length}
+				// widths={children.length}
 				minWidth={Responsive.onlyTablet.minWidth}>
     	{children}
-	</Responsive>
-)
-
-const CenteredMenu = styled(Menu)`
-	display: flex;
-	justify-content: center;
-`
-
-export const DesktopMenu = ({children}) => (
-	<Responsive as={CenteredMenu}
-				inverted pointing secondary
-				size='massive'
-				minWidth={Responsive.onlyTablet.minWidth}>
-			{children}
 	</Responsive>
 )
 

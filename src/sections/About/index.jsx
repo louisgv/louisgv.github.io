@@ -37,7 +37,7 @@ export default class About extends PureComponent {
 			<StyledContainer id={this.props.id}>
 				<br/>
 				<Header as='h2' inverted>
-					ABOUT ME
+					whois
 				</Header>
 
 				<hr className='section-decorator'/>

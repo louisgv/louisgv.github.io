@@ -2688,7 +2688,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-context@^0.2.2:
+create-react-context@^0.2.2, create-react-context@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.2.3.tgz#9ec140a6914a22ef04b8b09b7771de89567cb6f3"
   integrity sha512-CQBmD0+QGgTaxDL3OX1IDXYqjkp2It4RIbcb99jS6AEg27Ga+a9G3JtK6SIu0HBwPLZlmwt9F7UwWA4Bn92Rag==
@@ -8352,6 +8352,13 @@ react-scripts@2.1.8:
     workbox-webpack-plugin "3.6.3"
   optionalDependencies:
     fsevents "1.2.4"
+
+react-scroll-to@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/react-scroll-to/-/react-scroll-to-2.0.5.tgz#9926a6fdd130e6e57c3a213907dafcaa002c1103"
+  integrity sha512-a7RnktHhrewp9kPl5dSF4pUWiF/Uy7MQEgWpd76RuFhO7OLeib1HdlsZL0YEo5g1Y5RRGdsnRfoYzpYJ53Tj7w==
+  dependencies:
+    create-react-context "^0.2.3"
 
 react-scroll@^1.7.11:
   version "1.7.11"

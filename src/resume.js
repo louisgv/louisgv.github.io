@@ -24,8 +24,8 @@ export const SECTIONS = [
 ];
 
 export const BASIC = {
-    name: "Louis Vichy",
-    tagline: "#hacker",
+    name: "louis",
+    tagline: "#ahiluna",
     taglineUrl: "https://en.wikipedia.org/wiki/Hacker_culture",
     about: "I teach bots to steal jobs and make games for the retired.",
     email: "lgvichy@gmail.com",
@@ -118,7 +118,7 @@ export const SOCIALS = [
         "name": "Twitter",
         "color": COLORS[5],
         "icon": "twitter",
-        "url": "https://twitter.com/LGVichy",
+        "url": "https://twitter.com/litdib",
         "uid": "LGVichy"
     }, {
         "name": "LinkedIn",
@@ -136,15 +136,18 @@ export const SOCIALS = [
 ]
 
 export const WORK_SAMPLES = [
-    {
-        "name": "L'eau",
+    {   
+        "label": "Unreal",
+        "name": "janus",
         "color": COLORS[0],
-        "url": "https://louisgv.me/poker/"
+        "url": "https://janus-game/com"
     }, {
+        "label": "Web Canvas",
         "name": "Vize",
         "color": COLORS[1],
         "url": "https://louisgv.me/vize/"
     }, {
+        "label": "Unreal Engine",
         "name": "Pattar",
         "color": COLORS[2],
         "url": "https://louisgv.me/pattar/"

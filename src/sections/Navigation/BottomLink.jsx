@@ -4,10 +4,6 @@ import {
 	Image,
 } from 'semantic-ui-react';
 
-import {
-	Link,
-} from 'react-scroll';
-
 const pulsingDown = keyframes`
 	0, 100% {
 		transform: translateY(0);
@@ -20,7 +16,7 @@ const pulsingDown = keyframes`
 	}
 `;
 
-export const BottomLink = styled(Link)`
+export const BottomLink = styled.div`
 	position: absolute;
 	bottom: 3.6vh;
 	cursor: pointer;

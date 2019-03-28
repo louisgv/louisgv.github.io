@@ -26,8 +26,8 @@ export default class Home extends PureComponent {
 		return (
 			<Container>
 				<Navigation id="Top"/>
-				<About id="About"/>
-				<Portfolio id="Portfolio"/>
+				{/* <About id="About"/>
+				<Portfolio id="Portfolio"/> */}
 				<Resume id="Resume"/>
 				<Footer />
 			</Container>
