@@ -25,7 +25,7 @@ export const SECTIONS = [
 
 export const BASIC = {
   name: "louis",
-  tagline: "❤️life☮itself✋",
+  tagline: "❤️愛 ☮life ✋敬重",
   taglineUrl: "https://en.wikipedia.org/wiki/Hacker_culture",
   about: "I teach bots to steal jobs and make games for the retired.",
   email: "lgvichy@gmail.com",

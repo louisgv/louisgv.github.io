@@ -6,7 +6,8 @@ import mediaQuery from 'styled-media-query';
 import {
 	Header,
 	Divider,
-	Grid
+	Grid,
+	Responsive
 } from 'semantic-ui-react';
 
 import SocialMedia from 'components/SocialMedia';
@@ -34,7 +35,12 @@ const StyledContainer = styled(FlexColumnCenterDiv)`
 `
 
 export default class Hero extends PureComponent {
+
 	render() {
+
+	const WorkList = ()=>(<Grid stretched padded centered columns={workSamples.length}>
+			{ workSamples.map(WorkSample) }
+		</Grid>)
 		return (
 			<StyledContainer id={this.props.id}>
 				<Header
@@ -52,10 +58,12 @@ export default class Hero extends PureComponent {
 				 <Grid stretched padded doubling columns={socials.length}>
 					{ socials.map(SocialMedia) }
 				 </Grid>
-
-				 <Grid stretched padded centered columns={workSamples.length}>
-					{ workSamples.map(WorkSample) }
-				 </Grid>
+				 
+				 <Responsive
+						as={WorkList}
+						anchorClass="rainbow"
+						minWidth={Responsive.onlyTablet.minWidth}
+					/>
 
 			</StyledContainer>
 		);

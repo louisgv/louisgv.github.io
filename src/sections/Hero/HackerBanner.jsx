@@ -15,7 +15,7 @@ const HackerBanner =({anchorClass})=> (
 			as='h1'
 			content={basic.tagline}
 			inverted
-			style={{ fontSize: '3.6em', fontWeight: 'normal' }}
+			style={{ fontSize: '36px', fontWeight: 'normal' }}
 		/>
 	</a>
 )
@@ -23,7 +23,7 @@ const HackerBanner =({anchorClass})=> (
 export const MobileHackerBanner =()=> (
 	<Responsive
 		as={HackerBanner}
-		anchorClass="rainbow mobile"
+		anchorClass="rainbow"
 		{...Responsive.onlyMobile}
 	/>
 )
