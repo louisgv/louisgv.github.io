@@ -16,7 +16,10 @@ export const COLORS = [
 ];
 
 export const SECTIONS = [
-    'Top', 'About', 'Portfolio', 'Resume'
+    'Top', 
+    'About', 
+    //'Portfolio', 
+    'Resume'
     // 'Work', 'Education', 'Skills',
 ];
 
