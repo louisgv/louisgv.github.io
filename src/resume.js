@@ -30,7 +30,7 @@ export const BASIC = {
   about: "I teach bots to steal jobs and make games for the retired.",
   email: "lgvichy@gmail.com",
   logo: "id/icon-white.png",
-  url: "https://louisgv.ga/"
+  url: "https://louisgv.github.io/"
 };
 
 export const PHOTO = {
