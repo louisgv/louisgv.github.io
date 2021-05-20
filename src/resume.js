@@ -156,13 +156,13 @@ export const WORK_SAMPLES = [
     label: "production",
     name: "Janus",
     color: COLORS[1],
-    url: "https://janus-game.com"
+    url: "https://louisgv.itch.io/jhc"
   },
   {
     label: "visualization",
     name: "Pattar",
     color: COLORS[2],
-    url: "https://louisgv.ga/pattar/"
+    url: "https://louisgv.github.io/pattar/"
   }
 ];
 
