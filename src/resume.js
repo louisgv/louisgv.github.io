@@ -12,14 +12,14 @@ export const COLORS = [
   "pink",
   "brown",
   "grey",
-  "black"
+  "black",
 ];
 
 export const SECTIONS = [
   "Top",
   "About",
   //'Portfolio',
-  "Resume"
+  "Resume",
   // 'Work', 'Education', 'Skills',
 ];
 
@@ -30,28 +30,28 @@ export const BASIC = {
   about: "I teach bots to steal jobs and make games for the retired.",
   email: "lgvichy@gmail.com",
   logo: "id/icon-white.png",
-  url: "https://louisgv.github.io/"
+  url: "https://louisgv.github.io/",
 };
 
 export const PHOTO = {
   normal: "id/selfid.jpg",
   normalInverted: "id/selfid-inverted.jpg",
   small: "id/selfid-small.jpg",
-  smallInverted: "id/selfid-small-inverted.jpg"
+  smallInverted: "id/selfid-small-inverted.jpg",
 };
 
 export const CONTACT = {
   email: {
     icon: "envelope",
     color: COLORS[6],
-    value: "lgvichy@gmail.com"
+    value: "louis@plasmo.com",
   },
   location: {
     icon: "globe",
     color: COLORS[5],
     name: "Seattle, Washington",
-    url: "https://en.wikipedia.org/wiki/Seattle"
-  }
+    url: "https://en.wikipedia.org/wiki/Seattle",
+  },
 };
 
 export const HOBBIES = [
@@ -59,26 +59,26 @@ export const HOBBIES = [
     name: "Hacking on cutting edge technology",
     color: "orange",
     icon: "terminal",
-    url: "https://louisgv.github.io/dev/www/index.html#/"
+    url: "https://louisgv.github.io/dev/www/index.html#/",
   },
   {
     name: "Reading research paper",
     color: "yellow",
     icon: "sticky note",
-    url: "https://arxiv.org/"
+    url: "https://arxiv.org/",
   },
   {
     name: "Listening to scientific podcast",
     color: "olive",
     icon: "podcast",
-    url: "https://twit.tv/shows/floss-weekly"
+    url: "https://twit.tv/shows/floss-weekly",
   },
   {
     name: "Kick-boxing",
     color: "green",
     icon: "grab",
-    url: "https://en.wikipedia.org/wiki/Kickboxing"
-  }
+    url: "https://en.wikipedia.org/wiki/Kickboxing",
+  },
 ];
 
 export const INTERESTS = [
@@ -86,32 +86,32 @@ export const INTERESTS = [
     name: "Robotic Automation",
     color: COLORS[11],
     icon: "radio",
-    url: "https://en.wikipedia.org/wiki/Robotic_automation_software"
+    url: "https://en.wikipedia.org/wiki/Robotic_automation_software",
   },
   {
     name: "Life Extension",
     color: COLORS[10],
     icon: "power",
-    url: "https://en.wikipedia.org/wiki/Life_extension"
+    url: "https://en.wikipedia.org/wiki/Life_extension",
   },
   {
     name: "Machine Learning",
     color: COLORS[9],
     icon: "linkify",
-    url: "https://lmgtfy.com/?s=d&q=Machine+learning"
+    url: "https://lmgtfy.com/?s=d&q=Machine+learning",
   },
   {
     name: "Decentralization",
     color: COLORS[8],
     icon: "unlinkify",
-    url: "https://lmgtfy.com/?s=d&q=Decentralization"
+    url: "https://lmgtfy.com/?s=d&q=Decentralization",
   },
   {
     name: "Entertainment",
     color: COLORS[7],
     icon: "game",
-    url: "https://lmgtfy.com/?s=d&q=Entertainment"
-  }
+    url: "https://lmgtfy.com/?s=d&q=Entertainment",
+  },
 ];
 
 export const SOCIALS = [
@@ -120,29 +120,29 @@ export const SOCIALS = [
     color: COLORS[5],
     icon: "twitter",
     url: "https://twitter.com/litbid",
-    uid: "lidbid"
+    uid: "lidbid",
   },
   {
     name: "biz",
     color: COLORS[6],
     icon: "linkedin",
     url: "https://www.linkedin.com/in/louisgv/",
-    uid: "louisgv"
+    uid: "louisgv",
   },
   {
     name: "art",
     color: COLORS[7],
     icon: "instagram",
-    url: "https://www.instagram.com/lgvichy/",
-    uid: "lgvichy"
+    url: "https://www.instagram.com/louis.g.v/",
+    uid: "lgvichy",
   },
   {
     name: "code",
     color: COLORS[8],
     icon: "github",
     url: "https://github.com/louisgv/",
-    uid: "louisgv"
-  }
+    uid: "louisgv",
+  },
 ];
 
 export const WORK_SAMPLES = [
@@ -150,20 +150,20 @@ export const WORK_SAMPLES = [
     label: "networking",
     name: "HyperProxy",
     color: COLORS[0],
-    url: "https://goonism.github.io/hyperproxy/"
+    url: "https://goonism.github.io/hyperproxy/",
   },
   {
     label: "production",
     name: "Janus",
     color: COLORS[1],
-    url: "https://louisgv.itch.io/jhc"
+    url: "https://louisgv.itch.io/jhc",
   },
   {
     label: "visualization",
     name: "Pattar",
     color: COLORS[2],
-    url: "https://louisgv.github.io/pattar/"
-  }
+    url: "https://louisgv.github.io/pattar/",
+  },
 ];
 
 export const PORTFOLIOS = [
@@ -177,7 +177,7 @@ export const PORTFOLIOS = [
     role: "Lead Front-end Engineer",
     license: "PROPRIETARY",
     status: "In production, TurboTax 2016",
-    url: "https://www.youtube.com/watch?v=E19Znq9EDZ0"
+    url: "https://www.youtube.com/watch?v=E19Znq9EDZ0",
   },
   {
     name: "Cryptoville",
@@ -189,7 +189,7 @@ export const PORTFOLIOS = [
     technology: "React.js, Lisk",
     image: "project/cryptoville.gif",
     status: "Opensource Project",
-    url: "https://www.crypto-ville.herokuapp.com"
+    url: "https://www.crypto-ville.herokuapp.com",
   },
   {
     name: "JanusLauncher",
@@ -203,7 +203,7 @@ export const PORTFOLIOS = [
       "Kotlin, Android Studio Canary, TensorFlow, Jupyter Notebook, EMNIST database",
     image: "project/janusLauncher.gif",
     status: "Opensource Project",
-    url: "https://github.com/louisgv/janusLauncher"
+    url: "https://github.com/louisgv/janusLauncher",
   },
   {
     name: "VegaHub",
@@ -217,8 +217,8 @@ export const PORTFOLIOS = [
     technology:
       "Google Mobile Kit (Bluetooth module), Firebase, Ionic, Cordova, CrossWalk, ES5, SASS",
     image: "project/vegahub.gif",
-    url: "https://clnb.io/vega/"
-  }
+    url: "https://clnb.io/vega/",
+  },
 ];
 
 export const RESUME = {
@@ -226,29 +226,29 @@ export const RESUME = {
   embedded:
     "https://docs.google.com/document/d/1_UE4yS3lA81l3HdBwhKABcKXAJIO0HyDkcaOxNAjJPs/preview",
   external:
-    "https://docs.google.com/document/d/1_UE4yS3lA81l3HdBwhKABcKXAJIO0HyDkcaOxNAjJPs/edit?usp=sharing"
+    "https://docs.google.com/document/d/1_UE4yS3lA81l3HdBwhKABcKXAJIO0HyDkcaOxNAjJPs/edit?usp=sharing",
 };
 
 export const REFERENCES = [
   {
     url: "https://reactjs.org/",
-    name: "React.js"
+    name: "React.js",
   },
   {
     url: "https://react.semantic-ui.com/",
-    name: "Semantic-ui"
+    name: "Semantic-ui",
   },
   {
     url: "https://github.com/negomi/react-burger-menu/",
-    name: "react-burger-menu"
+    name: "react-burger-menu",
   },
   {
     url: "https://github.com/oliviertassinari/react-swipeable-views",
-    name: "react-swipeable-views"
-  }
+    name: "react-swipeable-views",
+  },
 ];
 
 export const LICENSE = {
   name: "MIT License",
-  url: "https://en.wikipedia.org/wiki/MIT_License"
+  url: "https://en.wikipedia.org/wiki/MIT_License",
 };
