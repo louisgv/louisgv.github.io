@@ -221,12 +221,14 @@ export const PORTFOLIOS = [
   },
 ];
 
+// https://docs.google.com/document/d/15Z-Bh6XjF8hPJpS4_dtiS2Ylz8Lnpun5rudPj_ewrqs/edit?usp=sharing
+
 export const RESUME = {
   // "embedded": "https://docs.google.com/document/d/e/2PACX-1vT9bDNvMitcORMx7nmL0-zOwDkTPMRZXuwR8OwN0j_1A1IMqm9hX4X5zY7_a27Os_CSGGnCJPkHwVYp/pub?embedded=true",
   embedded:
-    "https://docs.google.com/document/d/1_UE4yS3lA81l3HdBwhKABcKXAJIO0HyDkcaOxNAjJPs/preview",
+    "https://docs.google.com/document/d/15Z-Bh6XjF8hPJpS4_dtiS2Ylz8Lnpun5rudPj_ewrqs/preview",
   external:
-    "https://docs.google.com/document/d/1_UE4yS3lA81l3HdBwhKABcKXAJIO0HyDkcaOxNAjJPs/edit?usp=sharing",
+    "https://docs.google.com/document/d/15Z-Bh6XjF8hPJpS4_dtiS2Ylz8Lnpun5rudPj_ewrqs/edit?usp=sharing",
 };
 
 export const REFERENCES = [
