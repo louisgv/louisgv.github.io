@@ -44,7 +44,7 @@ export const CONTACT = {
   email: {
     icon: "envelope",
     color: COLORS[6],
-    value: "louis@plasmo.com",
+    value: "louis@openrouter.com",
   },
   location: {
     icon: "globe",
@@ -119,8 +119,8 @@ export const SOCIALS = [
     name: "tweet",
     color: COLORS[5],
     icon: "twitter",
-    url: "https://twitter.com/litbid",
-    uid: "lidbid",
+    url: "https://x.com/louis_g_v",
+    uid: "louis_g_v",
   },
   {
     name: "biz",
